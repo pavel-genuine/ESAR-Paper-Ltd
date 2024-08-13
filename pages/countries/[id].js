@@ -43,7 +43,7 @@ function Home() {
         <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
             <Head>
 
-                <title> Country : {countryData?.title}  | StudyHive Network</title>
+                <title> Country : {countryData?.title}  | ESAR Paper Industries Ltd</title>
             </Head>
 
             {/*========== Header Normal ========== */}

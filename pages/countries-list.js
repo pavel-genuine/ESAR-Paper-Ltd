@@ -14,7 +14,7 @@ function Work() {
     return (
         <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
             <Head>
-                <title>Offering Countries | StudyHive Network</title>
+                <title>Offering Countries | ESAR Paper Industries Ltd</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">

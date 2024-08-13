@@ -9,7 +9,7 @@ import FadeUpTrigger from "../../animation/FadeUpTrigger";
 const HeroContent = {
   title: "Hello we, are <br/> Study Hive",
   subtitle: `The starting point for countless options to study overseas!`,
-  description: `Travelling to study abroad is an experience that changes people unlike anything else. This is your opportunity to travel, see different cultures, and acquire priceless skills that will influence your future. The thrill and difficulties of studying overseas are well recognised to us at STUDYHIVE.`,
+  description: `Travelling to study abroad is an experience that changes people unlike anything else. This is your opportunity to travel, see different cultures, and acquire priceless skills that will influence your future. The thrill and difficulties of studying overseas are well recognised to us at ESAR.`,
   authorTitle: "",
   authorJob: "",
   experienceNumber: "5",

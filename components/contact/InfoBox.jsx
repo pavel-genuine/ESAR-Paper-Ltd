@@ -41,7 +41,7 @@ function InfoBox({ className }) {
             <a
               className="link-hover"
               data-hover-text="Facebook."
-              href="https://facebook.com/StudyHiveNetwork"
+              href="https://facebook.com/ESARPaper Industries Ltd"
               target="_blank"
               rel="nofollow"
             >

@@ -33,12 +33,12 @@ function About() {
     return (
         <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
             <Head>
-                <title>About Us | StudyHive Network</title>
+                <title>About Us | ESAR Paper Industries Ltd</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="">
                 <p className="subtitle p-relative line-shape line-shape-after mb-30">
-                    <span className="pl-10 pr-10 background-section">Study Hive Network </span>
+                    <span className="pl-10 pr-10 background-section">Study Hive Paper Industries Ltd </span>
                 </p>
                 <h1 className="title text-uppercase">
                     One stop solution for <br /> higher education abroad.
@@ -63,7 +63,7 @@ function About() {
                     <div className="box-right">
                         <p className="max-w570 dsn-up mb-15 ">
                             Travelling to study abroad is an experience that changes people unlike anything else. This is your opportunity to travel, see different cultures, and acquire priceless skills that will influence your future.
-                            <br /> <br />The thrill and difficulties of studying overseas are well recognised to us at STUDYHIVE.
+                            <br /> <br />The thrill and difficulties of studying overseas are well recognised to us at ESAR.
                         </p>
 
 

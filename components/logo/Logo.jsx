@@ -53,6 +53,6 @@ const Logo = ({ width, height, alt }) => {
 };
 
 MainBrand.defaultProps = { width: "80px", height: "auto" };
-Logo.defaultProps = { alt: "StudyHive" };
+Logo.defaultProps = { alt: "ESAR" };
 
 export default React.memo(Logo);

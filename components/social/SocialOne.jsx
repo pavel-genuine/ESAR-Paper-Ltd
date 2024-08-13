@@ -11,7 +11,7 @@ import { dsnCN } from "../../hooks/helper";
 const socialData = [
   //   { link: "#0", icon: faDribbble, name: "Db" },
   {
-    link: "https://facebook.com/StudyHiveNetwork",
+    link: "https://facebook.com/ESARPaper Industries Ltd",
     icon: faFacebookF,
     name: "Fb",
   },
@@ -23,7 +23,7 @@ function SocialOne({ className = "", ...restProps }) {
   return (
     <div
       className={dsnCN(
-        "social-side social-network d-flex align-items-center",
+        "social-side social-Paper Industries Ltd d-flex align-items-center",
         className
       )}
       {...restProps}

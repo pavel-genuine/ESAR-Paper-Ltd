@@ -29,7 +29,7 @@ function Service() {
     return (
         <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
             <Head>
-                <title>Service  | StudyHive Network</title>
+                <title>Service  | ESAR Paper Industries Ltd</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal backgroundColor="background-section" className="text-center">
@@ -118,7 +118,7 @@ function Service() {
             <div className="p-relative section-margin" data-dsn-title="STUDENT CONSULTING">
                 <DsnGrid className="container" col={2} colTablet={1}>
                     <div className="p-relative box-left order-md-2">
-                        <TitleCover>StudyHive</TitleCover>
+                        <TitleCover>ESAR</TitleCover>
                         <TitleSection className="mb-30" description="Some Feature" defaultSpace={false}>
                             STUDENT CONSULTING
                         </TitleSection>
@@ -158,7 +158,7 @@ function Service() {
 
                     <DsnGrid className="background-main" col={2} colTablet={1} rowGapTablet={0} rowGapMobile={0}>
                         <div className="p-relative box-padding box-left order-md-2">
-                            <TitleCover>StudyHive</TitleCover>
+                            <TitleCover>ESAR</TitleCover>
                             <TitleSection className="mb-15" defaultSpace={false} description="Study Manager" />
                             <h4 className="mb-50">Get connected today and start building
                                 world-class career!</h4>

@@ -1,7 +1,7 @@
 import { dsnCN } from "../../hooks/helper";
 
 const socialContent = [
-  { name: "Facebook.", href: "https://facebook.com/StudyHiveNetwork" },
+  { name: "Facebook.", href: "https://facebook.com/ESARPaper Industries Ltd" },
   { name: "Instagram.", href: "#0" },
   { name: "Linkedin.", href: "#0" },
   { name: "Twitter.", href: "#0" },

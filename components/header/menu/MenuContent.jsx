@@ -3,7 +3,10 @@ import { dsnCN } from "../../../hooks/helper";
 
 function MenuContent({ className }) {
   const socialData = [
-    { link: "https://facebook.com/StudyHiveNetwork", name: "Facebook." },
+    {
+      link: "https://facebook.com/ESARPaper Industries Ltd",
+      name: "Facebook.",
+    },
 
     { link: "#0", name: "Linkedin." },
     { link: "#0", name: "Twitter." },

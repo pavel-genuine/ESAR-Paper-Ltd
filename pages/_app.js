@@ -124,7 +124,7 @@ function MyApp({ Component, pageProps }) {
 
     return (<>
         <Head>
-            <title>StudyHive Network</title>
+            <title>ESAR Paper Industries Ltd</title>
             <meta name="description" content="Your Ultimate Higher Education Partner" />
             <link rel="icon" href="/img/favicon.ico" />
             <link rel="apple-touch-icon" href="/img/favicon.ico" />
