@@ -78,10 +78,10 @@ function Corporate() {
             </Head>
             <div className="hero-logo hero-logo-mobile" >
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                    <div style={{ backgroundColor: 'white', opacity: '75%', width: '110px', height: '110px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                        <Logo width="75px" height="auto" />
+                    <div style={{ width: '110px', height: '110px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                        <Logo width="90px" height="auto" />
                     </div>
-                    <p style={{ textAlign: 'center', fontWeight: 'bold', fontSize: '25px', color: '#dbc768' }}>ESAR Paper Industries Limited</p>
+                    <p style={{ textAlign: 'center', fontSize: '25px', color: '#dbc768' }}>ESAR Paper Industries Limited</p>
                 </div>
             </div>
             <SliderPortfolio webgel
@@ -173,7 +173,7 @@ function Corporate() {
             <Footer className="background-section" />
             {/*========== End Footer ==========*/}
 
-        </Layout>
+        </Layout >
 
 
     )
