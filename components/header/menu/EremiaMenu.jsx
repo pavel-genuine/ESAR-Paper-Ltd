@@ -185,7 +185,7 @@ const EremiaMenu = ({ hamburger }) => {
         href={"/"}
         transitionPage={{ title: "ESAR Paper Industries Ltd" }}
       >
-        <Logo width="75px" height="auto" />
+        <Logo height="auto" />
       </Navbar.Brand>
 
       <Navbar.Collapse cover="Menu">

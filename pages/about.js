@@ -38,16 +38,16 @@ function About() {
             {/*========== Header Normal ========== */}
             <HeaderNormal className="">
                 <p className="subtitle p-relative line-shape line-shape-after mb-30">
-                    <span className="pl-10 pr-10 background-section">Study Hive Paper Industries Ltd </span>
+                    <span className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd </span>
                 </p>
                 <h1 className="title text-uppercase">
-                    One stop solution for <br /> higher education abroad.
+                    One stop solution for <br /> apparel Trims & Packaging <br /> products and services.
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
 
             {/*Start Parallax Img*/}
-            <ParallaxImage alt={""} src={"/img/about/4.jpg"}
+            <ParallaxImage alt={""} src={"/img/about/about.webp"}
                 parallaxFrom={{ scale: 1.3 }} parallax={{ scale: 1 }}
                 overlay={5} />
             {/*End Parallax Img*/}
