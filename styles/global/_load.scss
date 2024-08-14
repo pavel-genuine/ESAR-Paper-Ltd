@@ -81,10 +81,12 @@
 
   .loading-text {
     position: absolute;
-    font-size: 22px;
+    font-size: 25px;
     color: $heading-color;
-    left: var(--dsn-gap-container);
-    bottom: 80px;
+    // left: var(--dsn-gap-container);
+    bottom: 200px;
+    // left:41%;
+    color: #dbc768;
   }
 
 

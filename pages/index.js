@@ -76,12 +76,14 @@ function Corporate() {
             <Head>
                 <title>ESAR Paper Industries Ltd </title>
             </Head>
-            <div className="hero-logo hero-logo-mobile" >
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                    <div style={{ width: '110px', height: '110px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                        <Logo width="90px" height="auto" />
+            <div>
+                <div className="hero-logo " >
+                    <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', }}>
+                        <div style={{ width: '110px', height: '110px', display: 'flex', justifyContent: 'center', alignItems: 'center', }} >
+                            {/* <Logo width="90px" height="auto" /> */}
+                        </div>
+                        {/* <p style={{ fontSize: '25px', color: 'white', backgroundColor: '#dbc768', padding: '10px' }}>ESAR Paper <br /> Industries <br /> Limited</p> */}
                     </div>
-                    <p style={{ textAlign: 'center', fontSize: '25px', color: '#dbc768' }}>ESAR Paper Industries Limited</p>
                 </div>
             </div>
             <SliderPortfolio webgel
@@ -100,7 +102,7 @@ function Corporate() {
             {/*Start Service*/}
             <div className="container section-margin" data-dsn-title="our Services">
                 <TitleSection description={"WHY CHOOSE US?"}>
-                    We are delivering beautiful <br /> digital products for you.
+                    We are delivering beautiful <br /> products for you.
                 </TitleSection>
                 <ServiceSwiperOne />
             </div>
