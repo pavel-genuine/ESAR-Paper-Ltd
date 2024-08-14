@@ -15,6 +15,9 @@ import Footer from "../components/footer/Footer";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
 import Logo from "../components/logo/Logo";
+import Button from "../components/button/Button";
+import HeroButton from "../components/button/HeroButton";
+import HeroSectionPersonal from "../components/hero-section/HeroSectionPersonal";
 
 
 const dataSlider = [{
@@ -25,7 +28,7 @@ const dataSlider = [{
         target: "_blank",
         rel: "nofollow"
     },
-    buttonText: "LEARN MORE",
+    buttonText: "ESAR Paper Industries Limited",
     subtitle: `We're a design studio that believe in the ideas`,
     src: '/img/agency.jpg',
     overlay: 6,
@@ -40,7 +43,7 @@ const dataSlider = [{
         target: "_blank",
         rel: "nofollow"
     },
-    buttonText: "LEARN MORE",
+    buttonText: "ESAR Paper Industries Limited",
     src: '/img/header.jpg',
     subtitle: `we combine design, thinking and technical craft`,
     overlay: 6,
@@ -54,7 +57,7 @@ const dataSlider = [{
         target: "_blank",
         rel: "nofollow"
     },
-    buttonText: "LEARN MORE",
+    buttonText: "ESAR Paper Industries Limited",
     src: '/img/corporate.jpg',
     subtitle: `We're a design studio that believe in the ideas`,
     overlay: 6
@@ -78,6 +81,8 @@ function Corporate() {
             </Head>
             <div>
                 <div className="hero-logo " >
+                    <HeroButton className={"link-custom mt-20"} >
+                    </HeroButton>
                     <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', }}>
                         <div style={{ width: '110px', height: '110px', display: 'flex', justifyContent: 'center', alignItems: 'center', }} >
                             {/* <Logo width="90px" height="auto" /> */}
@@ -96,8 +101,9 @@ function Corporate() {
             />
 
             {/*<!-- ========== About Section ========== */}
-            <HeroSection2 className={"section-padding v-light full-width"} data-dsn-title="About Us" />
-            {/*<!-- ========== End about section ========== */}
+            <section className="container about-me p-relative section-margin " data-dsn-title="About Me">
+                <HeroSectionPersonal />
+            </section>            {/*<!-- ========== End about section ========== */}
 
             {/*Start Service*/}
             <div className="container section-margin" data-dsn-title="our Services">

@@ -22,7 +22,7 @@ interface ButtonProps {
     | "border-color-gradient";
 }
 
-function Button({
+function HeroButton({
   // @ts-ignore
   className,
   borderRadius,
@@ -36,7 +36,7 @@ function Button({
   return (
     <Link
       transitionPage={transitionPage}
-      href={href}
+      href={"/"}
       {...LinkProps}
       className={dsnCN("dsn-button", className, borderRadius && "border-rdu ")}
       {...restProps}
@@ -50,9 +50,11 @@ function Button({
           )}
         />
       )}
-      <span>{children}</span>
+      <span style={{ color: "#dbc768", fontSize: "20px", textAlign: "left" }}>
+        ESAR Paper <br /> <br /> Industries <br /> <br /> Limited
+      </span>
     </Link>
   );
 }
 
-export default Button;
+export default HeroButton;

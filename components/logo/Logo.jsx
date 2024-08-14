@@ -34,6 +34,7 @@ const Logo = ({ width, height, alt }) => {
   return (
     <MainBrand className="main-brand" width={width} height={height}>
       <Image
+        style={{ padding: "4px" }}
         className="logo-light"
         src={"./img/logo.png"}
         alt={`${alt} - logo light`}

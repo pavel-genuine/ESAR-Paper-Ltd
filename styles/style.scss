@@ -81,9 +81,16 @@
   // color: #dbc768;
   // color: #a56f3a;
  }
-
+.hero-logo-mobile {
+  margin-bottom: -50px;
+  visibility: hidden;
+}
 
 @media only screen and (max-width: 991px) {
+  .hero-logo-mobile {
+     visibility: visible;
+     margin-bottom: 80px;
+    }
   .hero-logo {
       display: none;
     }
