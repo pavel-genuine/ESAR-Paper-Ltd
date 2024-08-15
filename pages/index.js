@@ -17,8 +17,9 @@ import Head from "next/head";
 import Logo from "../components/logo/Logo";
 import Button from "../components/button/Button";
 import HeroButton from "../components/button/HeroButton";
-import HeroSectionPersonal from "../components/hero-section/HeroSectionPersonal";
-
+import HeroSection from "../components/hero-section/HeroSection";
+import ServiceOne from "../components/services/grid/ServiceOne";
+import HeroSectionThree from "../components/hero-section/HeroSectionThree";
 
 const dataSlider = [{
     id: 1,
@@ -79,39 +80,70 @@ function Corporate() {
             <Head>
                 <title>ESAR Paper Industries Ltd </title>
             </Head>
-            <div>
-                <div className="hero-logo " >
-                    <HeroButton className={"link-custom mt-20"} >
-                    </HeroButton>
-                    <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', }}>
-                        <div style={{ width: '110px', height: '110px', display: 'flex', justifyContent: 'center', alignItems: 'center', }} >
-                            {/* <Logo width="90px" height="auto" /> */}
+            <div data-dsn-title="Banner">
+                <div>
+                    <div className="hero-logo " >
+                        <HeroButton className={"link-custom mt-20"} >
+                        </HeroButton>
+                        <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', }}>
+                            <div style={{ width: '110px', height: '110px', display: 'flex', justifyContent: 'center', alignItems: 'center', }} >
+                                {/* <Logo width="90px" height="auto" /> */}
+                            </div>
+                            {/* <p style={{ fontSize: '25px', color: 'white', backgroundColor: '#dbc768', padding: '10px' }}>ESAR Paper <br /> Industries <br /> Limited</p> */}
                         </div>
-                        {/* <p style={{ fontSize: '25px', color: 'white', backgroundColor: '#dbc768', padding: '10px' }}>ESAR Paper <br /> Industries <br /> Limited</p> */}
                     </div>
                 </div>
+                <SliderPortfolio webgel
+                    fullWidth
+                    alignControlNav={"center"}
+                    className="align-items-center justify-content-center text-center"
+                    data={dataSlider}
+                    webgelOptions={{ displacement: "/img/displacement/8.jpg", speedIn: 3.5 }}
+                    metaData={{ hasSeparator: false }}
+
+                />
             </div>
-            <SliderPortfolio webgel
-                fullWidth
-                alignControlNav={"center"}
-                className="align-items-center justify-content-center text-center"
-                data={dataSlider}
-                webgelOptions={{ displacement: "/img/displacement/8.jpg", speedIn: 3.5 }}
-                metaData={{ hasSeparator: false }}
-            />
 
             {/*<!-- ========== About Section ========== */}
-            <section className="container about-me p-relative section-margin " data-dsn-title="About Me">
-                <HeroSectionPersonal />
+            <section className=" section-padding v-light full-width  " data-dsn-title="About Us">
+                <div className="container">
+                    <HeroSection />
+                </div>
             </section>            {/*<!-- ========== End about section ========== */}
 
+
+
+            {/*<!-- ========== facts-section ==========*/}
+
+            <div className="section-padding p-relative background-section">
+                <BgDot />
+                <BgDot rightPosition />
+                <div className="container">
+                    <Facts className="text-center" col={4} colTablet={2} />
+                </div>
+            </div>
+            {/*<!-- ========== end facts-section ========== */}
+
             {/*Start Service*/}
-            <div className="container section-margin" data-dsn-title="our Services">
+            {/* 
+            <div className="container section-margin" data-dsn-title="Our Services">
+                <TitleSection
+                    className="align-items-center text-center"
+                    description={"Our Services"}
+                >
+                    We are providing complete study abroad solution <br /> all over the world for you.
+                </TitleSection>
+                <ServiceOne />
+            </div> */}
+
+
+
+            {/* <div className="container section-margin" data-dsn-title="our Services">
                 <TitleSection description={"WHY CHOOSE US?"}>
                     We are delivering beautiful <br /> products for you.
                 </TitleSection>
                 <ServiceSwiperOne />
-            </div>
+            </div> */}
             {/*End Service*/}
 
             {/*Start Portfolio*/}
@@ -131,35 +163,31 @@ function Corporate() {
 
             {/*End Portfolio*/}
             {/*<!-- ========== facts-section ==========*/}
-            <div className="section-padding p-relative background-section">
-                <BgDot />
-                <BgDot rightPosition />
-                <div className="container">
-                    <Facts className="text-center" col={4} colTablet={2} />
-                </div>
-            </div>
+
             {/*<!-- ========== end facts-section ========== */}
 
             {/*Start Blog*/}
-            <div className="container section-margin" data-dsn-title="our Blog">
-                <TitleSection
-                    description={"Lasts post"}>
-                    Latest And Greatest <br /> Postcscs
-                </TitleSection>
-                <BlogSwiper className={"our-blog-classic"}
-                    hideMetaData={["description"]}
-                    grabCursor
-                    desktop={{ spaceBetween: 30, slidesPerView: 3 }}
-                    tablet={{ spaceBetween: 30, slidesPerView: 2, centeredSlides: false }}
-                    mobile={{ spaceBetween: 0, slidesPerView: 1, centeredSlides: false }}
-                    centeredSlides loop
-                    parallax
-                    speed={1200}
-                    watchSlidesProgress
-                    loopedSlides={2}
-                >
-                    <SwiperPagination className={`justify-content-between dsn-container mt-30`} />
-                </BlogSwiper>
+            <div className="section-padding v-light full-width" data-dsn-title="our Blog" >
+                <div className="container section-margin " >
+                    <TitleSection
+                        description={"Lasts post"}>
+                        Latest And Greatest <br /> Posts
+                    </TitleSection>
+                    <BlogSwiper className={"our-blog-classic"}
+                        hideMetaData={["description"]}
+                        grabCursor
+                        desktop={{ spaceBetween: 30, slidesPerView: 3 }}
+                        tablet={{ spaceBetween: 30, slidesPerView: 2, centeredSlides: false }}
+                        mobile={{ spaceBetween: 0, slidesPerView: 1, centeredSlides: false }}
+                        centeredSlides loop
+                        parallax
+                        speed={1200}
+                        watchSlidesProgress
+                        loopedSlides={2}
+                    >
+                        <SwiperPagination className={`justify-content-between dsn-container mt-30`} />
+                    </BlogSwiper>
+                </div>
             </div>
             {/*End Blog*/}
 

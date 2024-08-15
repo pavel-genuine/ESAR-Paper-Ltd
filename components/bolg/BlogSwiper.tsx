@@ -44,7 +44,6 @@ function BlogSwiper({
 
   return (
     <Swiper
-      modules={[Pagination, Parallax, Autoplay, Navigation]}
       pagination={{ clickable: true, el: ".swiper-pagination" }}
       navigation={{
         nextEl: ".image-swiper-button-next",
@@ -53,6 +52,7 @@ function BlogSwiper({
       }}
       spaceBetween={30}
       slidesPerView={1}
+      modules={[Pagination, Parallax, Autoplay, Navigation]}
       autoplay={{
         delay: 2000,
       }}

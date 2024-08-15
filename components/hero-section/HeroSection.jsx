@@ -5,19 +5,25 @@ import ParallaxImage from "../Image/ParallaxImage";
 import { dsnCN } from "../../hooks/helper";
 import MoveTrigger from "../../animation/MoveTrigger";
 import FadeUpTrigger from "../../animation/FadeUpTrigger";
+import Button from "../button/Button";
 
 const HeroContent = {
-  title: "Hello we, are <br/> Study Hive",
+  title:
+    "we're, <br/> <span style='color:#8b6948;' >ESAR Paper <br/>  Industries Ltd<span/> ",
   subtitle: `The starting point for countless options to study overseas!`,
   description: `Travelling to study abroad is an experience that changes people unlike anything else. This is your opportunity to travel, see different cultures, and acquire priceless skills that will influence your future. The thrill and difficulties of studying overseas are well recognised to us at ESAR.`,
   authorTitle: "",
   authorJob: "",
-  experienceNumber: "5",
+  experienceNumber: "15",
   experienceDescription: `YEARS OF \n EXPERIENCE`,
-  heroImage: "/img/about-intro.jpg",
+  heroImage: "/img/about/about.webp",
+  textButton: `View More <span>⟶</span>`,
+  link: {
+    href: "/about",
+  },
   awards: [
-    { number: 33, description: `Business <br/> partner` },
-    { number: 89, description: `SUTISFIED <br/> STUDENTS` },
+    { number: "15+", description: `PRODUCTS <br/> CATEGORIES` },
+    { number: "35+", description: `SATISFIED <br/> CLIENTS` },
   ],
 };
 
@@ -37,7 +43,7 @@ function HeroSection({ className, ...restProps }) {
           >
             {(ref) => (
               <h2
-                className="section-title title-move mb-30 text-uppercase"
+                className=""
                 dangerouslySetInnerHTML={{ __html: HeroContent.title }}
                 ref={ref}
               />
@@ -46,7 +52,7 @@ function HeroSection({ className, ...restProps }) {
           <FadeUpTrigger>
             {(ref) => (
               <>
-                <h6 className="title-block border-bottom pb-30 mb-30" ref={ref}>
+                <h6 className=" border-bottom pb-30 mb-30" ref={ref}>
                   {HeroContent.subtitle}
                 </h6>
                 <p
@@ -61,9 +67,7 @@ function HeroSection({ className, ...restProps }) {
                 >
                   {HeroContent.authorTitle}
                 </h5>
-                <span className="sub-heading line-bg-left" ref={ref}>
-                  {HeroContent.authorJob}
-                </span>
+
                 <DsnGrid
                   className="box-awards pt-30"
                   col={2}
@@ -89,6 +93,15 @@ function HeroSection({ className, ...restProps }) {
                     </div>
                   ))}
                 </DsnGrid>
+                <div className="mt-30">
+                  <Button {...HeroContent.link} borderRadius>
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: HeroContent.textButton,
+                      }}
+                    />
+                  </Button>
+                </div>
               </>
             )}
           </FadeUpTrigger>

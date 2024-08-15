@@ -85,17 +85,19 @@ function Demo2() {
             {/*End Service*/}
 
             {/*<!-- ========== Video Section ========== */}
-            <div className="container section-margin">
+            <div className="section-padding v-light full-width ">
                 <HeroSectionThree />
             </div>
             {/*<!-- ========== End Video Section ========== */}
 
             {/*<!-- ========== facts-section ==========*/}
-            <div className="section-margin p-relative">
-                <BgDot />
-                <BgDot rightPosition />
-                <div className="container">
-                    <Facts className="text-center" col={4} colTablet={2} />
+            <div className="section-padding v-light full-width ">
+                <div>
+                    <BgDot />
+                    <BgDot rightPosition />
+                    <div className="container">
+                        <Facts className="text-center" col={4} colTablet={2} />
+                    </div>
                 </div>
             </div>
             {/*<!-- ========== end facts-section ========== */}

@@ -1,6 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Pagination, Parallax, SwiperOptions } from "swiper";
+import {
+  Pagination,
+  Parallax,
+  SwiperOptions,
+  Autoplay,
+  Navigation,
+} from "swiper";
 
 import PortfolioItem from "./PortfolioItem";
 import { getPortfolioData } from "../../data/portfolio";
@@ -38,7 +44,10 @@ function PortfolioSwiper({
 
   return (
     <Swiper
-      modules={[Pagination, Parallax]}
+      modules={[Pagination, Parallax, Autoplay, Navigation]}
+      autoplay={{
+        delay: 2000,
+      }}
       pagination={{
         clickable: true,
         el: ".swiper-pagination",
