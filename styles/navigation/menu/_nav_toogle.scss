@@ -8,12 +8,13 @@
   .toggle-icon {
     --width-icon: 25px;
     margin-right: 10px;
+    margin-bottom: 5px;
 
     .toggle-line {
       position: relative;
       height: 2px;
-      background-color: $heading-color;
-      width: 25px;
+      background-color: #8b6948;
+      width: 30px;
       transition: 0.5s;
 
 
@@ -47,7 +48,12 @@
     position: relative;
     --animate-trans: translateY(5px) rotateX(75deg);
     min-width: 43px;
-    color: $heading-color;
+    color: white;
+    // font-weight:600;
+    background-color: #8b6948;
+    padding-inline: 4px;
+    border-radius: 5px;
+    font-size: large;
 
     .text-open, .text-close {
       position: absolute;
