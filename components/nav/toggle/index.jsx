@@ -70,7 +70,7 @@ function Toggle({
         onClick={toggleClick}
         ref={navbarToggle}
       >
-        <div className="toggle-icon">
+        <div className="toggle-icon ">
           <div className="toggle-line" />
           <div className="toggle-line" />
           <div className="toggle-line" />

@@ -14,55 +14,111 @@ import NextPage from "../components/next/NextPage";
 import Footer from "../components/footer/Footer";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
-import Logo from "../components/logo/Logo";
 import Button from "../components/button/Button";
 import HeroButton from "../components/button/HeroButton";
 import HeroSection from "../components/hero-section/HeroSection";
 import ServiceOne from "../components/services/grid/ServiceOne";
 import HeroSectionThree from "../components/hero-section/HeroSectionThree";
+import DsnGrid from "../layout/DsnGrid";
+import ParallaxImage from "../components/Image/ParallaxImage";
+import List, { ListItem } from "../components/list/List";
+import Accordion, { AccordionItem } from "../components/accordion/Accordion";
+import Portfolio from "../components/portfolio/Portfolio";
+import BoxGallery, { BoxGalleryItem } from "../components/box-gallery/BoxGallery";
+import ButtonProject from "../components/button/ButtonProject";
+import HeaderFull from "../components/header/HeaderFull";
+import { getPortfolioItem } from "../data/portfolio";
+import Image from "next/image";
+import MoveBox from "../components/move-box/MoveBox";
+import FJustifiedGallery from "../components/justified-gallery/FJustifiedGallery";
+import TitleCover from "../components/heading/TitleCover";
 
-const dataSlider = [{
-    id: 1,
-    title: `Craft Elegant <br /> Solutions`,
-    href: {
-        href: "#0",
-        target: "_blank",
-        rel: "nofollow"
+const dataSlider = [
+    {
+        id: 1,
+        title: `Craft Elegant <br /> Solutions`,
+        href: {
+            href: "#0",
+            target: "_blank",
+            rel: "nofollow"
+        },
+        buttonText: "ESAR Paper Industries Limited",
+        subtitle: `We're a design studio that believe in the ideas`,
+        src: '/img/esar/box.avif',
+        overlay: 6,
+
     },
-    buttonText: "ESAR Paper Industries Limited",
-    subtitle: `We're a design studio that believe in the ideas`,
-    src: '/img/agency.jpg',
-    overlay: 6,
+    {
+        id: 2,
+        title: `Craft Elegant <br /> Solutions`,
+        href: {
+            href: "#0",
+            target: "_blank",
+            rel: "nofollow"
+        },
+        buttonText: "ESAR Paper Industries Limited",
+        subtitle: `We're a design studio that believe in the ideas`,
+        src: '/img/esar/zipper.jpg',
+        overlay: 6,
 
-},
-{
-    id: 2,
-    title: `Crafting Digital <br/> Experiences`,
-
-    href: {
-        href: "#0",
-        target: "_blank",
-        rel: "nofollow"
     },
-    buttonText: "ESAR Paper Industries Limited",
-    src: '/img/header.jpg',
-    subtitle: `we combine design, thinking and technical craft`,
-    overlay: 6,
+    {
+        id: 22,
+        title: `Craft Elegant <br /> Solutions`,
+        href: {
+            href: "#0",
+            target: "_blank",
+            rel: "nofollow"
+        },
+        buttonText: "ESAR Paper Industries Limited",
+        subtitle: `We're a design studio that believe in the ideas`,
+        src: '/img/esar/buttons.webp',
+        overlay: 6,
 
-},
-{
-    id: 3,
-    title: `Creative <br/> Solutions`,
-    href: {
-        href: "#0",
-        target: "_blank",
-        rel: "nofollow"
     },
-    buttonText: "ESAR Paper Industries Limited",
-    src: '/img/corporate.jpg',
-    subtitle: `We're a design studio that believe in the ideas`,
-    overlay: 6
-},]
+    {
+        id: 3,
+        title: `Crafting Digital <br/> Experiences`,
+
+        href: {
+            href: "#0",
+            target: "_blank",
+            rel: "nofollow"
+        },
+        buttonText: "ESAR Paper Industries Limited",
+        src: '/img/esar/Woven and Printed Labels1.jpg',
+        subtitle: `we combine design, thinking and technical craft`,
+        overlay: 6,
+
+    },
+    {
+        id: 4,
+        title: `Creative <br/> Solutions`,
+        href: {
+            href: "#0",
+            target: "_blank",
+            rel: "nofollow"
+        },
+        buttonText: "ESAR Paper Industries Limited",
+        src: '/img/esar/Belly Band & Photo Inlays.jpg',
+        subtitle: `We're a design studio that believe in the ideas`,
+        overlay: 6
+    },
+    {
+        id: 5,
+        title: `Creative <br/> Solutions`,
+        href: {
+            href: "#0",
+            target: "_blank",
+            rel: "nofollow"
+        },
+        buttonText: "ESAR Paper Industries Limited",
+        src: '/img/esar/Hang Tags (1).jpg',
+        subtitle: `We're a design studio that believe in the ideas`,
+        overlay: 6
+    },
+
+]
 
 function Corporate() {
 
@@ -72,7 +128,7 @@ function Corporate() {
         classDesc: "line-shape line-shape-after",
         classDesInner: "line-bg-left"
     }
-
+    const heroData = getPortfolioItem('huggl-power-pack');
 
     return (
         <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
@@ -165,6 +221,456 @@ function Corporate() {
             {/*<!-- ========== facts-section ==========*/}
 
             {/*<!-- ========== end facts-section ========== */}
+
+
+            <div className=" section-padding v-light full-width  " >
+                <div className="container">
+                    <Portfolio stylePortfolio={"work-section"}
+                        className="title-inherit h4 "
+                        useFilter
+
+                        col={3} colGap={50} rowGap={80}
+                    />
+                </div>
+            </div>
+
+
+
+            <section>
+                {/* 
+                <section className="v-ligh" >
+                    <FJustifiedGallery
+                        images={[
+
+                            {
+                                src: "/img/project/project4/4.jpg",
+                                caption: "Web Design",
+                            },
+                            {
+                                src: "/img/project/project4/5.jpg",
+                                caption: "Web Design",
+                            },
+                            {
+                                src: "/img/project/project4/6.jpg",
+                                caption: "Web Design",
+                            },
+                            {
+                                src: "/img/project/project4/7.jpg",
+                                caption: "Web Design",
+                            },
+                            {
+                                src: "/img/project/project4/8.jpg",
+                                caption: "Web Design",
+                            },
+                            {
+                                src: "/img/project/project4/9.jpg",
+                                caption: "Web Design",
+                            },
+                            {
+                                src: "/img/project/project4/10.jpg",
+                                caption: "Web Design",
+                            },
+                            {
+                                src: "/img/project/project4/11.jpg",
+                                caption: "Web Design",
+                            },
+                        ]}
+                        className="section-margin"
+                    />
+
+                </section> */}
+                {/*Start Box Info Move Content*/}
+                <div className="p-relative section-margin v-light">
+                    <ParallaxImage src="/img/esar/Woven and Printed Labels1.jpg" overlay={2} alt={""} />
+                    <MoveBox>
+                        <TitleSection className={`align-items-start mb-30`}
+                            defaultSpace={false}>
+                            A simple space for a wonderful family.
+                        </TitleSection>
+
+
+                        <p className="mb-10">Nestled in a quiet enclave along the recreational waterway of Alexandra Canal,
+                            on the fringe of the embassy district</p>
+                        <p>Principal Garden reflects a new daring in residential design thinking that purposefully seeks to
+                            maximise unbuilt space amid the density of urban Singapore.</p>
+
+                    </MoveBox>
+                </div>
+                {/*End Box Info Move Content*/}
+            </section>
+
+
+            <section>
+
+
+                {/*Start Gallery List*/}
+                <div className="mt-section mb-sm-section has-in-halg-bg p-relative">
+                    <div className="p-absolute half-bg-bottom w-100 d-sm-none h-50 bottom-0 left-0  v-light" />
+                    <div className="dsn-container">
+                        <BoxGallery col={2}>
+                            <BoxGalleryItem
+                                src="/img/esar/hang tags.jpg"
+                                groupPopup="gallery"
+                            />
+                            <BoxGalleryItem
+                                src="/img/esar/Woven and Printed Labels.jpg"
+                                groupPopup="gallery"
+                            />
+                        </BoxGallery>
+                    </div>
+                </div>
+                {/*End Gallery List*/}
+
+                {/*Start Intro Project*/}
+                <section className="text-center section-padding v-light">
+                    <div className="container">
+                        <div className="max-w750 ml-auto mr-auto">
+                            <h4 className="title-block dsn-text mb-20 words splitting overflow-hidden">
+                                The Small Silver Car That Changed Everything
+                            </h4>
+                            <p className="dsn-up">
+                                What you see in this blog post pales vastly in comparison to the
+                                painstaking attention to detail showcased in 000. A fine-toothed
+                                comb driven by a team of true Porsche enthusiasts has formed one
+                                of the finest pieces of automotive research, journalism, and
+                                photography in existence.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                {/*End Intro Project*/}
+
+                {/*Start Gallery List*/}
+                <div className="mb-section has-in-halg-bg p-relative mt-sm-section">
+                    <div className="p-absolute half-bg-bottom d-sm-none w-100 h-50 top-0 left-0  v-light" />
+                    <div className="dsn-container">
+                        <BoxGallery col={2}>
+                            <BoxGalleryItem
+                                src="/img/esar/Heat Transfer Label.png"
+                                groupPopup="gallery"
+                            />
+                            <BoxGalleryItem
+                                src="/img/esar/Care Labels.webp"
+                                groupPopup="gallery"
+                            />
+                        </BoxGallery>
+                    </div>
+                </div>
+                {/*End Gallery List*/}
+
+            </section>
+
+            <section >
+                <HeaderFull className="dsn-container"
+                    alignItems="end"
+                    heroContent={heroData} overlay={heroData?.overlay} />
+
+                <section className=" section-padding v-light full-width  " >
+                    {/*Start Intro Project*/}
+                    <section className="intro-project container section-margin">
+                        <DsnGrid customGrid={{ desktop: "40% 60%" }}>
+                            <div className="intro-project-left">
+                                <h4 className="title-block text-uppercase mb-20">Project</h4>
+                                <ul className="intro-project-list">
+                                    <li className="p-relative">
+                                        <strong>Agency</strong>Immersive interactive gallery
+                                    </li>
+                                    <li className="p-relative">
+                                        <strong>creating</strong>Gianni Teruzzi
+                                    </li>
+                                    <li className="p-relative">
+                                        <strong> Published</strong>November 24th 2016
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="intro-project-right">
+                                <h4 className="title-block text-uppercase mb-20">info</h4>
+                                <p className="intro-project-description">
+                                    Huggl is an induction charging, portable power pack that uses
+                                    alternative materials to stimulate new product experiences and
+                                    higher social interactions.
+                                </p>
+                                <div className="intro-project-cat mt-30">
+                                    <span className="cat-item"> Arthur Kenzo</span>
+                                    <span className="cat-item"> Smart Speaker </span>
+                                    <span className="cat-item">Voice Speaker </span>
+                                    <span className="cat-item">design</span>
+                                </div>
+                                <ButtonProject
+                                    href="https://www.behance.net/gallery/44548047/Huggl-Induction-Power-Pack"
+                                    target="_blank"
+                                    className="mt-30"
+                                >
+                                    VIST PROJECT
+                                </ButtonProject>
+                            </div>
+                        </DsnGrid>
+                    </section>
+                    {/*End Intro Project*/}
+
+
+                    {/*Start Gallery List*/}
+                    <BoxGallery className="section-margin container" col={2}>
+                        <BoxGalleryItem
+                            src='/img/esar/box1111.webp'
+                            groupPopup="gallery"
+                            caption={"Paper Based Packaging Box "}
+                        />
+                        <BoxGalleryItem
+                            src="/img/esar/box1.webp"
+                            groupPopup="gallery"
+                            caption={"Paper Based Packaging Box"}
+                        />
+                    </BoxGallery>
+                    {/*End Gallery List*/}
+
+                    {/*Start Intro Project*/}
+                    <section className="container section-margin text-center">
+                        <div className="p-relative">
+                            <h4 className="title-block dsn-text max-w570 ml-auto mr-auto mb-70 sm-mb-30">
+                                These lights also provide guidance on power pack charge.
+                            </h4>
+
+                            <Image className="w-100" alt={""} src={"/img/esar/box111.jpg"} width={1200} height={700}
+                                sizes="100vw" />
+                            <p className="dsn-up mt-30 ml-auto mr-auto max-w570">
+                                The LEDs are activated by holding the mAh button on the back, next
+                                to the power button; both of which help avoid accidental power use
+                                and/or drainage whilst on-the-move.
+                            </p>
+                        </div>
+                    </section>
+                    {/*End Intro Project*/}
+                </section>
+            </section>
+
+
+
+            <section>
+                {/*Start Parallax Img*/}
+                <ParallaxImage
+                    alt={""}
+                    src={"/img/project/project1/2.jpg"}
+                    overlay={3}
+                    caption="asdsadsa"
+                />
+                {/*End Parallax Img*/}
+
+
+                {/*Start Gallery List*/}
+                <div className="section-padding v-light full-width">
+                    <BoxGallery className="section-margin container" col={3}>
+                        <BoxGalleryItem
+                            src="/img/project/project1/3.jpg"
+                            groupPopup="gallery"
+                        />
+                        <BoxGalleryItem
+                            src="/img/project/project1/4.jpg"
+                            groupPopup="gallery"
+                        />
+                        <BoxGalleryItem
+                            src="/img/project/project1/5.jpg"
+                            groupPopup="gallery"
+                        />
+                    </BoxGallery>
+                </div>
+                {/*End Gallery List*/}
+
+                {/*Start Parallax Img*/}
+                <ParallaxImage
+                    alt={""}
+                    src={"/img/project/project1/6.jpg"}
+                    caption="asdsadsa"
+                />
+                {/*End Parallax Img*/}
+
+                {/*Start box vertical Section*/}
+                <section className="box-gallery-vertical container section-margin">
+                    <DsnGrid col={2} colGap={0}>
+                        <div className="p-relative mb-lg-section">
+                            <div className="box-im w-100 h-100 p-absolute">
+                                <ParallaxImage
+                                    alt={""}
+                                    src={"/img/project/project1/7.jpg"}
+                                    height="100%"
+                                />
+                            </div>
+                        </div>
+                        <div className="p-relative pt-lg-section">
+                            <div className="box-info h-100 box-padding background-section ">
+                                <TitleCover>speaker</TitleCover>
+                                <TitleSection
+                                    className={"text-uppercase mb-30"}
+                                    defaultSpace={false}
+                                >
+                                    Maybe speaker
+                                </TitleSection>
+
+                                <p>
+                                    A system that young people around the world with a club culture
+                                    and techno enthusiasts feel identified. We generated a simple
+                                    logo that is the basis for generating a geometric and liquid
+                                    system.
+                                </p>
+                                <p className="mt-15">
+                                    A system that young people around the world with a club culture
+                                    and techno enthusiasts feel identified. We generated a simple
+                                    logo that is the basis for generating a geometric and liquid
+                                    system.
+                                </p>
+                                <Button href="#0" className="mt-30">
+                                    View More <span className="icon">⟶</span>
+                                </Button>
+                            </div>
+                        </div>
+                    </DsnGrid>
+                </section>
+                {/*End box vertical Section*/}
+
+            </section>
+
+
+            <section className="section-padding v-light full-width">
+
+
+                {/*Start Gallery List*/}
+                <BoxGallery className="section-margin container" col={2}>
+                    <BoxGalleryItem
+                        src="/img/project/project2/3.jpg"
+                        groupPopup="gallery"
+                    />
+                    <BoxGalleryItem
+                        src="/img/project/project2/4.jpg"
+                        groupPopup="gallery"
+                    />
+                </BoxGallery>
+                {/*End Gallery List*/}
+
+                {/*Start Img*/}
+                <div className="container p-relative">
+                    <Image className="w-100" alt={""} src={"/img/project/project2/5.jpg"} width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
+                </div>
+                {/*End Img*/}
+
+                {/*Start Gallery List*/}
+                <BoxGallery className="section-margin container" col={3}>
+                    <BoxGalleryItem
+                        src="/img/project/project2/6.jpg"
+                        groupPopup="gallery"
+                    />
+                    <BoxGalleryItem
+                        src="/img/project/project2/7.jpg"
+                        groupPopup="gallery"
+                    />
+
+                    <BoxGalleryItem
+                        src="/img/project/project2/8.jpg"
+                        groupPopup="gallery"
+                    />
+                </BoxGallery>
+                {/*End Gallery List*/}
+
+                {/*Start Intro Project*/}
+                <section className="container section-margin">
+                    <DsnGrid col={2}>
+                        <div>
+                            <h4 className="title-block dsn-text sm-mb-20 words splitting overflow-hidden">Customisable
+                                & <br />
+                                Flexible</h4>
+                        </div>
+
+                        <div>
+                            <p className="dsn-up">We learned that different house have different preferences. So we decide
+                                that CareDot with different color to match different interior isn’t enough. We also make the
+                                alarm button customisable. This allow user to choose a symbol that make the most sense for
+                                their use case scenario along with personal message surrounding it.</p>
+                        </div>
+                    </DsnGrid>
+                </section>
+                {/*End Intro Project*/}
+            </section>
+
+
+            {/*<!-- ========== box-gallery-vertical image left ========== */}
+            <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Feature">
+                <div className="box-img" >
+                    <ParallaxImage alt="" src={"/img/rachel-claire.jpg"} height="100%" />
+                </div>
+                <div className="box-info box-padding background-section" >
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Some Feature">
+                        We combine design and thinking and technical craft.
+                    </TitleSection>
+                    <p className="max-w570 dsn-up mb-10 ">When our team provides design and digital
+                        marketing. Applied arts can include industrial
+                        design, graphic design,</p>
+
+                    <p className="max-w570 dsn-up"> fashion design, and the decorative arts which
+                        traditionally includes craft objects.</p>
+
+                    <div className="border-bottom mt-30 mb-30" />
+                    <List className="pb-30 border-bottom" col={1} rowGap={30}>
+                        <ListItem number="1" headingTag="span" headingTitle="sm-title-block">
+                            Next level Business consulting services
+                        </ListItem>
+                        <ListItem number="2" headingTag="span" headingTitle="sm-title-block">
+                            Marketing strategies & Digital marketing
+                        </ListItem>
+                        <ListItem number="3" headingTag="span" headingTitle="sm-title-block">
+                            Management & Strong Strategies
+                        </ListItem>
+                    </List>
+                    <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
+                        View More <span className="icon">⟶</span>
+                    </Button>
+                </div>
+            </DsnGrid>
+            {/*<!-- ========== End box-gallery-vertical image left ========== */}
+
+            {/*<!-- ========== box-gallery-vertical image right ========== */}
+            <DsnGrid className="p-relative over-hidden" col={2} colTablet={1} colGap={0} rowGap={0}>
+                <div className="box-info box-padding background-section order-md-2">
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Some Feature">
+                        Financing solutions .
+                    </TitleSection>
+
+                    <p className="max-w570 dsn-up">A business consulting
+                        agency is involved in the planning, implementation,
+                        and education of
+                        businesses. We work directly with business owners on
+                        developing a
+                        business plan, identifying marketing needs and
+                        developing the necessary
+                        skills for business ownership.</p>
+
+                    <div className="border-bottom mt-30 mb-30" />
+                    <Accordion className={"pb-30 border-bottom"}>
+                        <AccordionItem title="Website & Mobile App Design" active number={1}>
+                            <p>
+                                We’ve created a full-stack structure for our working
+                                workflow processes, were from the funny the century initial all the made, have spare to
+                                negatives.
+                            </p>
+                        </AccordionItem>
+                        <AccordionItem title="User Experience" number={2}>
+                            <p>
+                                We’ve created a full-stack structure for our working
+                                workflow processes, were from the funny the century initial all the made, have spare to
+                                negatives.
+                            </p>
+                        </AccordionItem>
+
+                    </Accordion>
+                    <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
+                        View More <span className="icon">⟶</span>
+                    </Button>
+                </div>
+                <div className="box-img order-md-1">
+                    <ParallaxImage alt="" src={"/img/project/project2/4.jpg"} height="100%" />
+                </div>
+
+            </DsnGrid>
+            {/*<!-- ========== End box-gallery-vertical image Right ========== */}
+
 
             {/*Start Blog*/}
             <div className="section-padding v-light full-width" data-dsn-title="our Blog" >

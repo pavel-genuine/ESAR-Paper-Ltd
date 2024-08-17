@@ -22,14 +22,12 @@ import Head from "next/head";
 
 function Demo2() {
 
-
     TitleSection.defaultProps = {
         className: "align-items-start",
         classDesc: "line-shape line-shape-after text-uppercase",
         classDesInner: "line-bg-left",
         classTitle: "text-uppercase"
     }
-
 
     return (
         <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
@@ -85,19 +83,17 @@ function Demo2() {
             {/*End Service*/}
 
             {/*<!-- ========== Video Section ========== */}
-            <div className="section-padding v-light full-width ">
+            <div className="container section-margin">
                 <HeroSectionThree />
             </div>
             {/*<!-- ========== End Video Section ========== */}
 
             {/*<!-- ========== facts-section ==========*/}
-            <div className="section-padding v-light full-width ">
-                <div>
-                    <BgDot />
-                    <BgDot rightPosition />
-                    <div className="container">
-                        <Facts className="text-center" col={4} colTablet={2} />
-                    </div>
+            <div className="section-margin p-relative">
+                <BgDot />
+                <BgDot rightPosition />
+                <div className="container">
+                    <Facts className="text-center" col={4} colTablet={2} />
                 </div>
             </div>
             {/*<!-- ========== end facts-section ========== */}

@@ -2,61 +2,60 @@
 
 const data = [
     {
-        id: 5,
-        title: "Secure the career",
-        slug: 'countries-list',
-        src: '/img/hero/5.avif',
-
-        category: ['World Class', 'Lifestyle'],
-        description: 'Cal was first. The first public university in the great state of California.',
-        overlay: 5
-    },
-    {
         id: 1,
-        title: "Craft Your Future",
-        slug: 'countries-list',
-        category: ['Education', 'Career'],
+        title: "Maybe Speaker",
+        slug: 'maybe-speaker',
+        category: ['Product', 'voice'],
         description: 'Vin tries to reflect Diesel’s vision and combines.',
-        src: '/img/hero/1.jpg',
+        src: '/img/esar/box.avif',
         overlay: 6
     },
     {
         id: 2,
-        title: "Explore The Opportunity",
-        slug: 'countries-list',
-        src: '/img/hero/2.jpg',
+        title: "Yaren Collection",
+        slug: 'yaren-collection',
+        src: '/img/esar/zipper.jpg',
 
-        category: ['Scholarship, Research'],
+        category: ['pen'],
         description: 'symbols through which express themselves.',
         overlay: 6,
 
     },
     {
         id: 3,
-        title: "Tap the Untouched",
-        slug: 'countries-list',
-        src: '/img/hero/3.jpg',
+        title: "Huggl Power Pack",
+        slug: 'huggl-power-pack',
 
-        category: ['Growth, Future'],
+        src: '/img/esar/box2.avif',
+        category: ['induction'],
         description: 'Huggl is an induction charging.',
         overlay: 6
     },
     {
         id: 4,
-        title: "Rename the boundaries ",
-        slug: 'countries-list',
-        category: ['Higher Education'],
-        src: '/img/hero/4.jpg',
+        title: "Principal Garden",
+        slug: 'principal-garden',
+        category: ['Architecture'],
+        src: '/img/esar/Trims & Accessories1.webp',
         description: 'We are thrilled to share our new reel with you all.',
         overlay: 2
     },
+    {
+        id: 5,
+        title: "Small Silver Car",
+        slug: 'small-silver-car',
+        src: '/img/esar/Belly Band & Photo Inlays.jpg',
 
+        category: ['Photography', 'Car'],
+        description: 'Cal was first. The first public university in the great state of California.',
+        overlay: 5
+    },
     {
         id: 6,
-        title: "Target the epic destination",
-        slug: 'countries-list',
-        category: ['Education'],
-        src: '/img/hero/1.jpg',
+        title: "Lengshuikeng",
+        slug: 'lengshuikeng',
+        category: ['Photography'],
+        src: '/img/esar/Hang Tags (1).jpg',
         description: 'Sometimes, we need to check the time.',
         overlay: 4
     }
@@ -69,7 +68,7 @@ export const getPortfolioItem = (value, whereName = "slug") => {
 };
 export const getPortfolioLink = (item) => {
     if (item)
-        return item.slug && '/' + item.slug;
+        return item.slug && '/portfolio/' + item.slug;
 
     return '';
 };

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import brandLight from "./logo.png";
-import brandDark from "./logo-dark.png";
+import brandDark from "./logo.png";
 import Image from "next/image";
 
 const MainBrand = styled.div`
@@ -37,15 +37,15 @@ const Logo = ({ width, height, alt }) => {
         style={{ padding: "4px" }}
         className="logo-light"
         src={"./img/logo.png"}
-        alt={`${alt} - logo light`}
+        alt={` logo light`}
         width={320}
         height={84}
         // style={{ position: "absolute", left: "500%" }}
       />
       <Image
         className="logo-dark"
-        src={brandDark?.src}
-        alt={`${alt} - logo dark`}
+        src={"./img/logo.png"}
+        alt={` logo dark`}
         width={320}
         height={84}
       />

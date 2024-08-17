@@ -53,8 +53,8 @@
     .work-item{
       @include v-light(){
         .sec-title > a{
-          background-color: $reverse-color;
-          color: $reverse-heading-color;
+          // background-color: $reverse-color;
+          color: $theme-color;
           padding: 5px 5px 0;
         }
       }

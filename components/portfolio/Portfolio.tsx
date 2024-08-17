@@ -71,7 +71,7 @@ function Portfolio({
       )}
       <DsnGrid
         {...restProps}
-        className={useFilter && "dsn-grid-masonry"}
+        className={useFilter && "dsn-grid-masonry "}
         ref={refIsotope}
       >
         {dataPortfolio.map((item, index) => (
