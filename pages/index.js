@@ -350,7 +350,7 @@ function Corporate() {
                                 groupPopup="gallery"
                             />
                             <BoxGalleryItem
-                                src="/img/esar/Care Labels.webp"
+                                src="/img/esar/Care Labels.jpg"
                                 groupPopup="gallery"
                             />
                         </BoxGallery>
@@ -397,7 +397,7 @@ function Corporate() {
                                     <span className="cat-item">design</span>
                                 </div>
                                 <ButtonProject
-                                    href="https://www.behance.net/gallery/44548047/Huggl-Induction-Power-Pack"
+                                    href="/"
                                     target="_blank"
                                     className="mt-30"
                                 >
@@ -431,7 +431,7 @@ function Corporate() {
                                 These lights also provide guidance on power pack charge.
                             </h4>
 
-                            <Image className="w-100" alt={""} src={"/img/esar/box111.jpg"} width={1200} height={700}
+                            <Image className="w-100" alt={""} src={"/img/esar/box111 (2).png"} width={1200} height={700}
                                 sizes="100vw" />
                             <p className="dsn-up mt-30 ml-auto mr-auto max-w570">
                                 The LEDs are activated by holding the mAh button on the back, next
@@ -450,7 +450,7 @@ function Corporate() {
                 {/*Start Parallax Img*/}
                 <ParallaxImage
                     alt={""}
-                    src={"/img/project/project1/2.jpg"}
+                    src={"/img/esar/ecoband-custom.avif"}
                     overlay={3}
                     caption="asdsadsa"
                 />
@@ -461,15 +461,15 @@ function Corporate() {
                 <div className="section-padding v-light full-width">
                     <BoxGallery className="section-margin container" col={3}>
                         <BoxGalleryItem
-                            src="/img/project/project1/3.jpg"
+                            src={"/img/esar/band1.jpg"}
                             groupPopup="gallery"
                         />
                         <BoxGalleryItem
-                            src="/img/project/project1/4.jpg"
+                            src={"/img/esar/band2.jpg"}
                             groupPopup="gallery"
                         />
                         <BoxGalleryItem
-                            src="/img/project/project1/5.jpg"
+                            src={"/img/esar/band4.jpg"}
                             groupPopup="gallery"
                         />
                     </BoxGallery>
@@ -479,7 +479,7 @@ function Corporate() {
                 {/*Start Parallax Img*/}
                 <ParallaxImage
                     alt={""}
-                    src={"/img/project/project1/6.jpg"}
+                    src={"/img/esar/tap1.jpg"}
                     caption="asdsadsa"
                 />
                 {/*End Parallax Img*/}
@@ -491,19 +491,19 @@ function Corporate() {
                             <div className="box-im w-100 h-100 p-absolute">
                                 <ParallaxImage
                                     alt={""}
-                                    src={"/img/project/project1/7.jpg"}
+                                    src={"/img/esar/tap3.png"}
                                     height="100%"
                                 />
                             </div>
                         </div>
                         <div className="p-relative pt-lg-section">
                             <div className="box-info h-100 box-padding background-section ">
-                                <TitleCover>speaker</TitleCover>
+                                <TitleCover>Self </TitleCover>
                                 <TitleSection
                                     className={"text-uppercase mb-30"}
                                     defaultSpace={false}
                                 >
-                                    Maybe speaker
+                                    Adhesive Labels
                                 </TitleSection>
 
                                 <p>
@@ -530,71 +530,14 @@ function Corporate() {
             </section>
 
 
-            <section className="section-padding v-light full-width">
 
 
-                {/*Start Gallery List*/}
-                <BoxGallery className="section-margin container" col={2}>
-                    <BoxGalleryItem
-                        src="/img/project/project2/3.jpg"
-                        groupPopup="gallery"
-                    />
-                    <BoxGalleryItem
-                        src="/img/project/project2/4.jpg"
-                        groupPopup="gallery"
-                    />
-                </BoxGallery>
-                {/*End Gallery List*/}
-
-                {/*Start Img*/}
-                <div className="container p-relative">
-                    <Image className="w-100" alt={""} src={"/img/project/project2/5.jpg"} width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
-                </div>
-                {/*End Img*/}
-
-                {/*Start Gallery List*/}
-                <BoxGallery className="section-margin container" col={3}>
-                    <BoxGalleryItem
-                        src="/img/project/project2/6.jpg"
-                        groupPopup="gallery"
-                    />
-                    <BoxGalleryItem
-                        src="/img/project/project2/7.jpg"
-                        groupPopup="gallery"
-                    />
-
-                    <BoxGalleryItem
-                        src="/img/project/project2/8.jpg"
-                        groupPopup="gallery"
-                    />
-                </BoxGallery>
-                {/*End Gallery List*/}
-
-                {/*Start Intro Project*/}
-                <section className="container section-margin">
-                    <DsnGrid col={2}>
-                        <div>
-                            <h4 className="title-block dsn-text sm-mb-20 words splitting overflow-hidden">Customisable
-                                & <br />
-                                Flexible</h4>
-                        </div>
-
-                        <div>
-                            <p className="dsn-up">We learned that different house have different preferences. So we decide
-                                that CareDot with different color to match different interior isn’t enough. We also make the
-                                alarm button customisable. This allow user to choose a symbol that make the most sense for
-                                their use case scenario along with personal message surrounding it.</p>
-                        </div>
-                    </DsnGrid>
-                </section>
-                {/*End Intro Project*/}
-            </section>
 
 
             {/*<!-- ========== box-gallery-vertical image left ========== */}
             <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Feature">
                 <div className="box-img" >
-                    <ParallaxImage alt="" src={"/img/rachel-claire.jpg"} height="100%" />
+                    <ParallaxImage alt="" src={"/img/esar/mission.webp"} height="100%" />
                 </div>
                 <div className="box-info box-padding background-section" >
                     <TitleSection className={"mb-50"} defaultSpace={false} description="Some Feature">
@@ -665,7 +608,7 @@ function Corporate() {
                     </Button>
                 </div>
                 <div className="box-img order-md-1">
-                    <ParallaxImage alt="" src={"/img/project/project2/4.jpg"} height="100%" />
+                    <ParallaxImage alt="" src={"/img/esar/vision.jpg"} height="100%" />
                 </div>
 
             </DsnGrid>
@@ -673,7 +616,7 @@ function Corporate() {
 
 
             {/*Start Blog*/}
-            <div className="section-padding v-light full-width" data-dsn-title="our Blog" >
+            {/* <div className="section-padding v-light full-width" data-dsn-title="our Blog" >
                 <div className="container section-margin " >
                     <TitleSection
                         description={"Lasts post"}>
@@ -694,18 +637,18 @@ function Corporate() {
                         <SwiperPagination className={`justify-content-between dsn-container mt-30`} />
                     </BlogSwiper>
                 </div>
-            </div>
+            </div> */}
             {/*End Blog*/}
 
             {/*========== End brand-client Section ==========*/}
-            <section className="container section-margin" data-dsn-title="our clients">
+            {/* <section className="container section-margin" data-dsn-title="our clients">
                 <TitleSection className={`align-items-center text-center`}
                     description={"Our clients"}>
                     Successful, Our Reputation
                 </TitleSection>
 
                 <BrandClient col={4} colTablet={2} colGap={0} rowGap={0} />
-            </section>
+            </section> */}
 
             {/*========== Next Page ==========*/}
             <NextPage className="section-padding border-top background-section" />

@@ -81,7 +81,7 @@
 
   .loading-text {
     position: absolute;
-    font-size: 25px;
+    font-size: 30px;
     color: $heading-color;
     // left: var(--dsn-gap-container);
     bottom: 200px;
@@ -224,10 +224,10 @@
 
     .loading-text {
       position: absolute;
-      font-size: 15px;
+      font-size: 18px;
       color: $heading-color;
       // left: var(--dsn-gap-container);
-      bottom: 330px;
+      bottom: 200px;
       // left:41%;
       text-align: center;
       color: #dbc768;
