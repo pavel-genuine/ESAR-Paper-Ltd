@@ -23,24 +23,17 @@ function Home() {
         classDesInner: "line-bg-right",
     };
     const [productData, setProductData] = useState({})
-    const [id, setId] = useState(1)
 
-    if (typeof window !== "undefined") {
-        const queryParameters = new URLSearchParams(window.location.search)
-        const productId = queryParameters.get('id');
-
-
-
-
-
-        useEffect(() => {
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            const queryParameters = new URLSearchParams(window.location.search)
+            const productId = queryParameters.get('id');
 
             const product = data?.find(d => d?.id == productId)
 
             setProductData(product)
-        }, [productId])
-    }
-
+        }
+    }, [window !== "undefined" && window.location.search])
 
 
     return (
