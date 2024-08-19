@@ -86,7 +86,12 @@ export function BoxGalleryItem({
 
         {caption && (
           <p
-            style={{ color: "#8b6948", fontSize: "20px", fontWeight: "normal" }}
+            style={{
+              color: "#8b6948",
+              fontSize: "20px",
+              fontWeight: "normal",
+              marginTop: "10px",
+            }}
           >
             {caption}
           </p>
