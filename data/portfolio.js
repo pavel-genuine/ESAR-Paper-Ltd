@@ -7,6 +7,9 @@ export const data = [
         slug: 'hang-tags',
         category: ['Trims & Accessories'],
         src: '/img/esar/Hang Tags (1).jpg',
+        img1: '/img/esar/hangtags.png',
+        img2: '/img/esar/hang tags.jpg',
+        img3: '/img/esar/hangtags222.jpg',
         des1: `Whether your preference leans towards FSC™-certified materials or non-wood alternatives, strings, seals or ribbons for your hangtags, we always have the right options to match your brand’s needs and sustainable direction for trims.
         
         `,
@@ -24,6 +27,9 @@ export const data = [
         slug: 'heat-transfer-label',
         category: ['Trims & Accessories'],
         src: '/img/esar/Heat Transfer Label.png',
+        img1: '/img/esar/Heat Transfer Label1.png',
+        img2: '/img/esar/Heat Transfer Label2.png',
+        img3: '/img/esar/Heat Transfer Label.webp',
         des1: `Heat transfer labels, also known as tag-less labels, are a type of label applied to garments or fabrics using heat and pressure. These labels are often used in the fashion and apparel industry as a modern and comfortable alternative to traditional sewn-in labels.
         `,
         des2: `Our heat transfers offer outstanding text and picture consistency with bright colors and clearer, more natural transfers with sharper details. We provide both simple and high rise heat transfer labels passing all rigorous testing procedures. We offer a wide range of styles including stretchable, reflective, neon and more.
@@ -34,10 +40,13 @@ export const data = [
     },
     {
         id: 3,
+        img3: '/img/esar/Care Labels2.jpg',
+        img2: '/img/esar/Care Labels.webp',
+        img1: '/img/esar/Care Labels.jpg',
         title: "Care Labels",
         slug: 'care-labels',
         category: ['Trims & Accessories'],
-        src: '/img/esar/Care Labels.jpg',
+        src: '/img/esar/Care Labels.png',
         des1: `Heat transfer labels, also known as tag-less labels, are a type of label applied to garments or fabrics using heat and pressure. These labels are often used in the fashion and apparel industry as a modern and comfortable alternative to traditional sewn-in labels.
         `,
         des2: `        Our heat transfers offer outstanding text and picture consistency with bright colors and clearer, more natural transfers with sharper details. We provide both simple and high rise heat transfer labels passing all rigorous testing procedures. We offer a wide range of styles including stretchable, reflective, neon and more.
@@ -48,6 +57,9 @@ export const data = [
     },
     {
         id: 4,
+        img1: '/img/esar/Woven and Printed Labels1.png',
+        img2: '/img/esar/Woven and Printed Labels2.jpg',
+        img3: '/img/esar/Woven and Printed Labels3.png',
         title: "Woven and Printed Labels",
         slug: 'woven-and-printed-labels',
 
@@ -62,6 +74,9 @@ export const data = [
     },
     {
         id: 5,
+        img1: '/img/esar/Self Adhesive Labels1.png',
+        img2: '/img/esar/Self Adhesive Labels2.png',
+        img3: '/img/esar/Self Adhesive Labels3.jpg',
         title: "Self Adhesive Labels",
         slug: 'self-adhesive-labels',
         category: ['Self Adhesive Labels'],
@@ -74,6 +89,9 @@ export const data = [
     },
     {
         id: 6,
+        img1: '/img/esar/box1.jpg',
+        img2: '/img/esar/box1.webp',
+        img3: '/img/esar/box111.png',
         title: "Paper Based Packaging Box",
         slug: 'paper-based-packaging-box',
         category: ['Paper Based Packaging Box'],
@@ -85,6 +103,9 @@ export const data = [
 
     {
         id: 7,
+        img1: '/img/esar/Belly Band & Photo Inlays1.jpg',
+        img2: '/img/esar/Belly Band & Photo Inlays2.jpg',
+        img3: '/img/esar/band1.jpg',
         title: "Belly Band & Photo Inlays",
         slug: 'belly-band-&-photo-inlays',
         src: '/img/esar/Belly Band & Photo Inlays.jpg',

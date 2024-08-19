@@ -16,6 +16,10 @@ import CommentForm from "../../components/bolg/CommentForm";
 import Link from "next/link";
 import Head from "next/head";
 import { data } from "../../data/portfolio.js"
+import BoxGallery, {
+    BoxGalleryItem,
+} from "../../components/box-gallery/BoxGallery";
+import Image from "next/image";
 
 function Home() {
     TitleSection.defaultProps = {
@@ -85,12 +89,25 @@ function Home() {
 
 
                     {/*Start Box Info Center Content*/}
-                    <div className="p-relative v-dark-head text-center">
-                        <ParallaxImage src="/img/blog/2.jpg" overlay={4} height={"80vh"} alt={""} />
-                        <div className="v-middle z-index-1">
-                            <ButtonPopup href="//media.w3.org/2010/05/sintel/trailer.mp4" />
-                        </div>
+                    <div className="container p-relative">
+                        <Image className="w-100" alt={""}
+                            src={productData?.img1}
+                            width={1400} height={688} sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw" />
                     </div>
+                    {/*End Img*/}
+
+                    {/*Start Gallery List*/}
+                    <BoxGallery className="section-margin container" col={2}>
+                        <BoxGalleryItem
+                            src={productData?.img2}
+                            groupPopup="gallery"
+                        />
+                        <BoxGalleryItem
+                            src={productData?.img3}
+                            groupPopup="gallery"
+                        />
+                    </BoxGallery>
+                    {/*End Gallery List*/}
                     {/*End Box Info Center Content*/}
 
                     {productData?.des3 ?
