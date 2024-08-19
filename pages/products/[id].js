@@ -33,7 +33,7 @@ function Home() {
 
             setProductData(product)
         }
-    }, [window !== "undefined" && window.location.search])
+    }, [typeof window !== "undefined" && window.location.search])
 
 
     return (
