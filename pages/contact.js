@@ -20,12 +20,12 @@ function About() {
     return (
         <Layout>
             <Head>
-                <title>Contact Us | Eremia Creative Portfolio Multi-Purpose</title>
+                <title>Contact Us | ESAR Paper Industries Ltd</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="text-center">
                 <p className="subtitle p-relative line-shape  mb-20">
-                    <span className="pl-10 pr-10 background-section">Study Hive Paper Industries Ltd</span>
+                    <span className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd</span>
                 </p>
                 <h1 className="title text-uppercase">
                     Look around you<br /> everything is changing.
