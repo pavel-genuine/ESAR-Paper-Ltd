@@ -23,20 +23,23 @@ function Home() {
         classDesInner: "line-bg-right",
     };
     const [productData, setProductData] = useState({})
+    const [id, setId] = useState(1)
 
-    const queryParameters = new URLSearchParams(window.location.search)
-    const productId = queryParameters.get('id');
-    ;
+    if (typeof window !== "undefined") {
+        const queryParameters = new URLSearchParams(window.location.search)
+        const productId = queryParameters.get('id');
 
 
-    useEffect(() => {
 
-        const product = data?.find(d => d?.id == productId)
 
-        setProductData(product)
-        console.log(product)
-    }, [productId])
 
+        useEffect(() => {
+
+            const product = data?.find(d => d?.id == productId)
+
+            setProductData(product)
+        }, [productId])
+    }
 
 
 
