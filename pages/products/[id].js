@@ -62,7 +62,7 @@ function Home() {
                 overlay={5} />
             {/*End Parallax Img*/}
 
-            <div className="news-content mb-section mt-40">
+            <div className="news-content  pt-40 pb-40 v-light">
                 <div className="single-post container post-content  ">
 
                     {productData?.requirementsFor && <h3>Student’s Eligibility and Application requirements : </h3>}
