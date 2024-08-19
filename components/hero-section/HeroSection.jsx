@@ -10,8 +10,8 @@ import Button from "../button/Button";
 const HeroContent = {
   title:
     "we're, <br/> <span style='color:#8b6948;' >ESAR Paper <br/>  Industries Ltd<span/> ",
-  subtitle: `The starting point for countless options to study overseas!`,
-  description: `Travelling to study abroad is an experience that changes people unlike anything else. This is your opportunity to travel, see different cultures, and acquire priceless skills that will influence your future. The thrill and difficulties of studying overseas are well recognised to us at ESAR.`,
+  subtitle: `Our facility offers one of the most comprehensive ranges of apparel Trims & Packaging products and services`,
+  description: `At present, our facility stands as a comprehensive and sustainable production hub, incorporating divisions dedicated to Printed Corrugated Carton, Industrial Offset Printing, Printed Fabric Label, Heat Transfer Label, and Poly Bag manufacturing. This integrated approach allows us to seamlessly cater to diverse industry needs, offering a one-stop solution for quality and sustainable packaging, labeling, and printing requirements.`,
   authorTitle: "",
   authorJob: "",
   experienceNumber: "15",
@@ -23,7 +23,7 @@ const HeroContent = {
   },
   awards: [
     { number: "15+", description: `PRODUCTS <br/> CATEGORIES` },
-    { number: "35+", description: `SATISFIED <br/> CLIENTS` },
+    { number: "70+", description: `SATISFIED <br/> CLIENTS` },
   ],
 };
 
@@ -58,7 +58,7 @@ function HeroSection({ className, ...restProps }) {
                 <p
                   className="mb-30"
                   ref={ref}
-                  style={{ maxWidth: 570 }}
+                  style={{ maxWidth: 570, fontSize: "18px" }}
                   dangerouslySetInnerHTML={{ __html: HeroContent.description }}
                 />
                 <h5

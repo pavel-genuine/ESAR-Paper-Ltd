@@ -22,7 +22,7 @@ function MenuContent({ className }) {
         <div className="nav-content">
           <h5 className="sm-title-block mb-10">Office</h5>
           <p>
-            Sector 3, Road 14, House 25, Uttara, <br /> Dhaka-1230, Bangladesh
+            Sector 05, Road 1B, House 11, Uttara, <br /> Dhaka-1230, Bangladesh
           </p>
         </div>
         <div className="nav-content mt-30">
@@ -30,19 +30,19 @@ function MenuContent({ className }) {
           <p className="links over-hidden mb-1">
             <a
               className="link-hover"
-              href="tel:+880 1929-673465"
-              data-hover-text="+880 1929-673465"
+              href="tel:+880 1713-334877"
+              data-hover-text="+880 1713-334877"
             >
-              +880 1929-673465
+              +880 1713-334877
             </a>
           </p>
           <p className="links over-hidden">
             <a
               className="link-hover"
-              href="mailto:fuzaelbd@gmail.com"
-              data-hover-text="fuzaelbd@gmail.com"
+              href="mailto:info@esar.com"
+              data-hover-text="info@esar.com"
             >
-              fuzaelbd@gmail.com
+              info@esar.com
             </a>
           </p>
         </div>

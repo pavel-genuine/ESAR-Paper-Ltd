@@ -9,30 +9,30 @@ function Facts({ className, ...restProps }: DsnGridProps) {
     >
       <div className="facts-item">
         <div className="text-center p-relative">
-          <span className="number">70</span>
+          <span className="number">70+</span>
           <h6 className="sm-title-block v-middle w-100">Happy Clients</h6>
         </div>
       </div>
 
       <div className="facts-item">
         <div className="text-center p-relative">
-          <span className="number">63</span>
+          <span className="number">150+</span>
           <h6 className="sm-title-block v-middle w-100">Team mates</h6>
         </div>
       </div>
 
       <div className="facts-item">
         <div className="text-center p-relative">
-          <span className="number">51</span>
+          <span className="number">50+</span>
           <h6 className="sm-title-block v-middle w-100">Succeeded Projects</h6>
         </div>
       </div>
 
       <div className="facts-item">
         <div className="text-center p-relative">
-          <span className="number">13</span>
+          <span className="number">10+</span>
           <h6 className="sm-title-block v-middle w-100">
-            Finished Tearly Project
+            Finished Yearly Project
           </h6>
         </div>
       </div>

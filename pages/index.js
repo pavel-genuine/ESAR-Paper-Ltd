@@ -128,7 +128,7 @@ function Corporate() {
         classDesc: "line-shape line-shape-after",
         classDesInner: "line-bg-left"
     }
-    const heroData = getPortfolioItem('huggl-power-pack');
+    const heroData = getPortfolioItem('paper-based-packaging-box');
 
     return (
         <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
@@ -285,14 +285,12 @@ function Corporate() {
                     <MoveBox>
                         <TitleSection className={`align-items-start mb-30`}
                             defaultSpace={false}>
-                            A simple space for a wonderful family.
+                            Discover the perfect match for your brand...
                         </TitleSection>
 
 
-                        <p className="mb-10">Nestled in a quiet enclave along the recreational waterway of Alexandra Canal,
-                            on the fringe of the embassy district</p>
-                        <p>Principal Garden reflects a new daring in residential design thinking that purposefully seeks to
-                            maximise unbuilt space amid the density of urban Singapore.</p>
+                        <p className="mb-10">Trims contribute to the visual appeal and design aesthetics of products. Hangtags, Labels and other trims serve as a direct communication tool between the brand and the consumer, conveying important information and contributing to the overall branding and marketing strategy.</p>
+                        <p>. The design and content of trims can vary widely based on the brand's identity, target audience, and the nature of the product. </p>
 
                     </MoveBox>
                 </div>
@@ -311,10 +309,12 @@ function Corporate() {
                             <BoxGalleryItem
                                 src="/img/esar/hang tags.jpg"
                                 groupPopup="gallery"
+                                caption={'Hang Tags'}
                             />
                             <BoxGalleryItem
                                 src="/img/esar/Woven and Printed Labels.jpg"
                                 groupPopup="gallery"
+                                caption={'Woven and Printed Labels'}
                             />
                         </BoxGallery>
                     </div>
@@ -326,15 +326,10 @@ function Corporate() {
                     <div className="container">
                         <div className="max-w750 ml-auto mr-auto">
                             <h4 className="title-block dsn-text mb-20 words splitting overflow-hidden">
-                                The Small Silver Car That Changed Everything
+                                We serve with our expert team & finest raw materials
                             </h4>
                             <p className="dsn-up">
-                                What you see in this blog post pales vastly in comparison to the
-                                painstaking attention to detail showcased in 000. A fine-toothed
-                                comb driven by a team of true Porsche enthusiasts has formed one
-                                of the finest pieces of automotive research, journalism, and
-                                photography in existence.
-                            </p>
+                                We specialize in catering to, primarily but not only, apparel, footwear, and home textile industries, tailoring every solution to the brand identity and needs. Our dedicated team can create tailor-made trims to meet the unique branding and design requirements of our clients, ensuring that each accessory complements the overall look and feel of the product </p>
                         </div>
                     </div>
                 </section>
@@ -348,10 +343,12 @@ function Corporate() {
                             <BoxGalleryItem
                                 src="/img/esar/Heat Transfer Label.png"
                                 groupPopup="gallery"
+                                caption={'Heat Transfer Label'}
                             />
                             <BoxGalleryItem
                                 src="/img/esar/Care Labels.jpg"
                                 groupPopup="gallery"
+                                caption={'Care Labels'}
                             />
                         </BoxGallery>
                     </div>
@@ -367,45 +364,7 @@ function Corporate() {
 
                 <section className=" section-padding v-light full-width  " >
                     {/*Start Intro Project*/}
-                    <section className="intro-project container section-margin">
-                        <DsnGrid customGrid={{ desktop: "40% 60%" }}>
-                            <div className="intro-project-left">
-                                <h4 className="title-block text-uppercase mb-20">Project</h4>
-                                <ul className="intro-project-list">
-                                    <li className="p-relative">
-                                        <strong>Agency</strong>Immersive interactive gallery
-                                    </li>
-                                    <li className="p-relative">
-                                        <strong>creating</strong>Gianni Teruzzi
-                                    </li>
-                                    <li className="p-relative">
-                                        <strong> Published</strong>November 24th 2016
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="intro-project-right">
-                                <h4 className="title-block text-uppercase mb-20">info</h4>
-                                <p className="intro-project-description">
-                                    Huggl is an induction charging, portable power pack that uses
-                                    alternative materials to stimulate new product experiences and
-                                    higher social interactions.
-                                </p>
-                                <div className="intro-project-cat mt-30">
-                                    <span className="cat-item"> Arthur Kenzo</span>
-                                    <span className="cat-item"> Smart Speaker </span>
-                                    <span className="cat-item">Voice Speaker </span>
-                                    <span className="cat-item">design</span>
-                                </div>
-                                <ButtonProject
-                                    href="/"
-                                    target="_blank"
-                                    className="mt-30"
-                                >
-                                    VIST PROJECT
-                                </ButtonProject>
-                            </div>
-                        </DsnGrid>
-                    </section>
+
                     {/*End Intro Project*/}
 
 
@@ -428,15 +387,13 @@ function Corporate() {
                     <section className="container section-margin text-center">
                         <div className="p-relative">
                             <h4 className="title-block dsn-text max-w570 ml-auto mr-auto mb-70 sm-mb-30">
-                                These lights also provide guidance on power pack charge.
+                                Convey the perfect match for your brand's identity
                             </h4>
 
                             <Image className="w-100" alt={""} src={"/img/esar/box111 (2).png"} width={1200} height={700}
                                 sizes="100vw" />
                             <p className="dsn-up mt-30 ml-auto mr-auto max-w570">
-                                The LEDs are activated by holding the mAh button on the back, next
-                                to the power button; both of which help avoid accidental power use
-                                and/or drainage whilst on-the-move.
+                                From concept to execution, we bring innovation and strategic design to the forefront, ensuring that our packaging solutions make a lasting impact in the competitive market landscape.
                             </p>
                         </div>
                     </section>
@@ -452,7 +409,7 @@ function Corporate() {
                     alt={""}
                     src={"/img/esar/ecoband-custom.avif"}
                     overlay={3}
-                    caption="asdsadsa"
+                    caption="Belly Band & Photo Inlays"
                 />
                 {/*End Parallax Img*/}
 
@@ -463,14 +420,17 @@ function Corporate() {
                         <BoxGalleryItem
                             src={"/img/esar/band1.jpg"}
                             groupPopup="gallery"
+                            caption={'Belly Band & Photo Inlays'}
                         />
                         <BoxGalleryItem
                             src={"/img/esar/band2.jpg"}
                             groupPopup="gallery"
+                            caption={'Belly Band & Photo Inlays'}
                         />
                         <BoxGalleryItem
                             src={"/img/esar/band4.jpg"}
                             groupPopup="gallery"
+                            caption={'Belly Band & Photo Inlays'}
                         />
                     </BoxGallery>
                 </div>
@@ -480,7 +440,7 @@ function Corporate() {
                 <ParallaxImage
                     alt={""}
                     src={"/img/esar/tap1.jpg"}
-                    caption="asdsadsa"
+                    caption="Self Adhesive Labels"
                 />
                 {/*End Parallax Img*/}
 
@@ -507,20 +467,14 @@ function Corporate() {
                                 </TitleSection>
 
                                 <p>
-                                    A system that young people around the world with a club culture
-                                    and techno enthusiasts feel identified. We generated a simple
-                                    logo that is the basis for generating a geometric and liquid
-                                    system.
+                                    Elevate your brand connection with our durable and removable self-adhesive label. These labels go beyond mere identification; they enable businesses to forge a more personal connection with customers.
                                 </p>
                                 <p className="mt-15">
-                                    A system that young people around the world with a club culture
-                                    and techno enthusiasts feel identified. We generated a simple
-                                    logo that is the basis for generating a geometric and liquid
-                                    system.
+                                    Our self-adhesive peel-off labels are designed to endure both high and cold temperatures, ensuring resilience in various applications. Whether your products face the heat of summer or the chill of winter, our labels remain steadfast, offering the best labeling solution for a range of scenarios.
                                 </p>
-                                <Button href="#0" className="mt-30">
+                                {/* <Button href="#0" className="mt-30">
                                     View More <span className="icon">⟶</span>
-                                </Button>
+                                </Button> */}
                             </div>
                         </div>
                     </DsnGrid>
@@ -529,37 +483,32 @@ function Corporate() {
 
             </section>
 
-
-
-
-
-
             {/*<!-- ========== box-gallery-vertical image left ========== */}
             <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Feature">
                 <div className="box-img" >
                     <ParallaxImage alt="" src={"/img/esar/mission.webp"} height="100%" />
                 </div>
                 <div className="box-info box-padding background-section" >
-                    <TitleSection className={"mb-50"} defaultSpace={false} description="Some Feature">
-                        We combine design and thinking and technical craft.
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Our Mission">
+                        Our Mission is to revolutionize the packaging industry...
                     </TitleSection>
-                    <p className="max-w570 dsn-up mb-10 ">When our team provides design and digital
-                        marketing. Applied arts can include industrial
-                        design, graphic design,</p>
+                    <p className="max-w570 dsn-up mb-10 ">Our Mission is to revolutionize the packaging industry by delivering cutting-edge, eco-friendly solutions that enhance brand value and reduce environmental impact.
+                        <br />
+                        We aim to be a catalyst for positive change, inspiring businesses to adopt sustainable packaging practices</p>
 
-                    <p className="max-w570 dsn-up"> fashion design, and the decorative arts which
-                        traditionally includes craft objects.</p>
 
                     <div className="border-bottom mt-30 mb-30" />
                     <List className="pb-30 border-bottom" col={1} rowGap={30}>
                         <ListItem number="1" headingTag="span" headingTitle="sm-title-block">
-                            Next level Business consulting services
+                            <span style={{ fontWeight: 'bold' }}>
+                                Customized Solution:</span> Tailored trims & packaging solutions to meet the unique requirements of different product types, sizes, and brands.
                         </ListItem>
                         <ListItem number="2" headingTag="span" headingTitle="sm-title-block">
-                            Marketing strategies & Digital marketing
+                            <span style={{ fontWeight: 'bold' }}>
+                                Eco-Friendly Materials:</span> Utilizing recyclable and biodegradable materials to contribute to a more sustainable and responsible industry.
                         </ListItem>
                         <ListItem number="3" headingTag="span" headingTitle="sm-title-block">
-                            Management & Strong Strategies
+                            <span style={{ fontWeight: 'bold' }}>Innovative Designs:</span>  Incorporating the latest design trends and technologies to create packaging that stands out on the shelves and resonates with consumers.
                         </ListItem>
                     </List>
                     <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
@@ -572,22 +521,15 @@ function Corporate() {
             {/*<!-- ========== box-gallery-vertical image right ========== */}
             <DsnGrid className="p-relative over-hidden" col={2} colTablet={1} colGap={0} rowGap={0}>
                 <div className="box-info box-padding background-section order-md-2">
-                    <TitleSection className={"mb-50"} defaultSpace={false} description="Some Feature">
-                        Financing solutions .
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Our Vision">
+                        Our Vision is to be the preferred partner for global brand...
                     </TitleSection>
 
-                    <p className="max-w570 dsn-up">A business consulting
-                        agency is involved in the planning, implementation,
-                        and education of
-                        businesses. We work directly with business owners on
-                        developing a
-                        business plan, identifying marketing needs and
-                        developing the necessary
-                        skills for business ownership.</p>
+                    <p className="max-w570 dsn-up">Our Vision is to be the preferred partner for global brand, setting the standard for sustainable and stylish packaging that adds value to their brand identity.</p>
 
                     <div className="border-bottom mt-30 mb-30" />
                     <Accordion className={"pb-30 border-bottom"}>
-                        <AccordionItem title="Website & Mobile App Design" active number={1}>
+                        <AccordionItem title="Sustainable and stylish Solution" active number={1}>
                             <p>
                                 We’ve created a full-stack structure for our working
                                 workflow processes, were from the funny the century initial all the made, have spare to
@@ -603,9 +545,9 @@ function Corporate() {
                         </AccordionItem>
 
                     </Accordion>
-                    <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
+                    {/* <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
                         View More <span className="icon">⟶</span>
-                    </Button>
+                    </Button> */}
                 </div>
                 <div className="box-img order-md-1">
                     <ParallaxImage alt="" src={"/img/esar/vision.jpg"} height="100%" />
@@ -615,40 +557,6 @@ function Corporate() {
             {/*<!-- ========== End box-gallery-vertical image Right ========== */}
 
 
-            {/*Start Blog*/}
-            {/* <div className="section-padding v-light full-width" data-dsn-title="our Blog" >
-                <div className="container section-margin " >
-                    <TitleSection
-                        description={"Lasts post"}>
-                        Latest And Greatest <br /> Posts
-                    </TitleSection>
-                    <BlogSwiper className={"our-blog-classic"}
-                        hideMetaData={["description"]}
-                        grabCursor
-                        desktop={{ spaceBetween: 30, slidesPerView: 3 }}
-                        tablet={{ spaceBetween: 30, slidesPerView: 2, centeredSlides: false }}
-                        mobile={{ spaceBetween: 0, slidesPerView: 1, centeredSlides: false }}
-                        centeredSlides loop
-                        parallax
-                        speed={1200}
-                        watchSlidesProgress
-                        loopedSlides={2}
-                    >
-                        <SwiperPagination className={`justify-content-between dsn-container mt-30`} />
-                    </BlogSwiper>
-                </div>
-            </div> */}
-            {/*End Blog*/}
-
-            {/*========== End brand-client Section ==========*/}
-            {/* <section className="container section-margin" data-dsn-title="our clients">
-                <TitleSection className={`align-items-center text-center`}
-                    description={"Our clients"}>
-                    Successful, Our Reputation
-                </TitleSection>
-
-                <BrandClient col={4} colTablet={2} colGap={0} rowGap={0} />
-            </section> */}
 
             {/*========== Next Page ==========*/}
             <NextPage className="section-padding border-top background-section" />

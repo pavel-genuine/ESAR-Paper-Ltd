@@ -62,13 +62,6 @@ function Portfolio({
         styleBox && `with-lc`
       )}
     >
-      {useFilter && (
-        <FilterPortfolio
-          className={filterClass}
-          categories={[...category]}
-          actionFilter={setFilter}
-        />
-      )}
       <DsnGrid
         {...restProps}
         className={useFilter && "dsn-grid-masonry "}

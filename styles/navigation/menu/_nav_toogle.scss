@@ -114,3 +114,11 @@
     }
   }
 }
+
+@include media_991(max) {
+
+    .toggle-text{
+      display: none;
+    }
+
+}

@@ -4,7 +4,7 @@ import HeaderNormal from "../components/header/HeaderNormal";
 import TitleSection from "../components/heading/TitleSection";
 import ParallaxImage from "../components/Image/ParallaxImage";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
-import List from "../components/list/List";
+import List, { ListItem } from "../components/list/List";
 import DsnGrid from "../layout/DsnGrid";
 import Layout from "../layout/Layout";
 import BoxGallery, {
@@ -22,6 +22,8 @@ import { getServiceData } from "../data/service";
 import Image from "next/image";
 import ModalContact from "../components/model-right/ModalContact";
 import Head from "next/head";
+import Button from "../components/button/Button";
+import Accordion, { AccordionItem } from "../components/accordion/Accordion";
 
 function About() {
     TitleSection.defaultProps = {
@@ -46,134 +48,119 @@ function About() {
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
 
-            {/*Start Parallax Img*/}
-            <ParallaxImage alt={""} src={"/img/about/about.webp"}
-                parallaxFrom={{ scale: 1.3 }} parallax={{ scale: 1 }}
-                overlay={5} />
-            {/*End Parallax Img*/}
-
-            {/*<!-- ========== About Section ========== */}
-            <div className="container section-margin" data-dsn-title="About">
-
-                <TitleSection className="mb-15" description={"What We Do"} defaultSpace={false} />
-                <DsnGrid col={2} colTablet={1}>
-                    <div className="box-left">
-                        <h4>The starting point for countless options to study overseas!  </h4>
-                    </div>
-                    <div className="box-right">
-                        <p className="max-w570 dsn-up mb-15 ">
-                            Travelling to study abroad is an experience that changes people unlike anything else. This is your opportunity to travel, see different cultures, and acquire priceless skills that will influence your future.
-                            <br /> <br />The thrill and difficulties of studying overseas are well recognised to us at ESAR.
-                        </p>
-
-
-                    </div>
-                </DsnGrid>
-                <List className="pt-50 mt-50 border-top pt-md-30 mt-md-30" col={3} iconSize={"21px"}>
-                    <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color" />}
-                        className="align-items-center"> Student Consultancy </List.item>
-                    <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color" />}
-                        className="align-items-center"> Admission</List.item>
-                    <List.item icon={<FontAwesomeIcon icon={faCheck} className="theme-color" />}
-                        className="align-items-center"> Visa Process</List.item>
-                </List>
-            </div>
-            {/*<!-- ========== End About Section ========== */}
-
-            {/*Start Gallery List*/}
-            <BoxGallery className="section-margin container" col={2}>
-                <BoxGalleryItem src="/img/help-project.jpg" groupPopup="gallery" />
-                <BoxGalleryItem src="/img/plan-project.jpg" groupPopup="gallery" />
-            </BoxGallery>
-            {/*End Gallery List*/}
-
-            {/*Start awards Section*/}
-            <section className="section-padding background-section" data-dsn-title="Services">
-                <div className="container">
-                    <TitleSection description="Our Services">
-                        We are providing complete study abroad solution <br />
-                        all over the world for you.
+            {/*<!-- ========== box-gallery-vertical image left ========== */}
+            <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Feature">
+                <div className="box-img" >
+                    <ParallaxImage alt="" src={"/img/esar/mission.webp"} height="100%" />
+                </div>
+                <div className="box-info box-padding background-section" >
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Our Mission">
+                        Our Mission is to revolutionize the packaging industry...
                     </TitleSection>
-                    <Service.grid className="icon-left" styleBox="list" data={getServiceData().slice(0, 3)} />
+                    <p className="max-w570 dsn-up mb-10 ">Our Mission is to revolutionize the packaging industry by delivering cutting-edge, eco-friendly solutions that enhance brand value and reduce environmental impact.
+                        <br />
+                        We aim to be a catalyst for positive change, inspiring businesses to adopt sustainable packaging practices</p>
+
+
+                    <div className="border-bottom mt-30 mb-30" />
+                    <List className="pb-30 border-bottom" col={1} rowGap={30}>
+                        <ListItem number="1" headingTag="span" headingTitle="sm-title-block">
+                            <span style={{ fontWeight: 'bold' }}>
+                                Customized Solution:</span> Tailored trims & packaging solutions to meet the unique requirements of different product types, sizes, and brands.
+                        </ListItem>
+                        <ListItem number="2" headingTag="span" headingTitle="sm-title-block">
+                            <span style={{ fontWeight: 'bold' }}>
+                                Eco-Friendly Materials:</span> Utilizing recyclable and biodegradable materials to contribute to a more sustainable and responsible industry.
+                        </ListItem>
+                        <ListItem number="3" headingTag="span" headingTitle="sm-title-block">
+                            <span style={{ fontWeight: 'bold' }}>Innovative Designs:</span>  Incorporating the latest design trends and technologies to create packaging that stands out on the shelves and resonates with consumers.
+                        </ListItem>
+                    </List>
+
                 </div>
-            </section>
-            {/*End awards Section*/}
+            </DsnGrid>
+            {/*<!-- ========== End box-gallery-vertical image left ========== */}
 
+            {/*<!-- ========== box-gallery-vertical image right ========== */}
+            <DsnGrid className="p-relative over-hidden" col={2} colTablet={1} colGap={0} rowGap={0}>
+                <div className="box-info box-padding background-section order-md-2">
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Our Vision">
+                        Our Vision is to be the preferred partner for global brand...
+                    </TitleSection>
 
-            <section className="awards-section section-margin" data-dsn-title="Awards">
-                <div className="container">
-                    <DsnGrid col={2} colTablet={1}>
-                        <div className="box-left">
-                            <TitleSection description={" Awards & Honors"} defaultSpace={false}>
-                                The awards won by our team.
-                            </TitleSection>
-                            <Awards />
-                        </div>
+                    <p className="max-w570 dsn-up">Our Vision is to be the preferred partner for global brand, setting the standard for sustainable and stylish packaging that adds value to their brand identity.</p>
 
-                        <div className="box-right">
-                            <div className="container-img p-relative">
-                                <Image className="cover-bg-img" alt={""} src={"/img/agency-1.jpg"} width={1280}
-                                    height={840}
-                                    sizes="(max-width: 768px) 100vw,(max-width: 1200px) 75vw,100vw"
-                                />
-                            </div>
-                        </div>
-                    </DsnGrid>
+                    <div className="border-bottom mt-30 mb-30" />
+                    <Accordion className={"pb-30 border-bottom"}>
+                        <AccordionItem title="Sustainable and stylish Solution" active number={1}>
+                            <p>
+                                We’ve created a full-stack structure for our working
+                                workflow processes, were from the funny the century initial all the made, have spare to
+                                negatives.
+                            </p>
+                        </AccordionItem>
+                        <AccordionItem title="User Experience" number={2}>
+                            <p>
+                                We’ve created a full-stack structure for our working
+                                workflow processes, were from the funny the century initial all the made, have spare to
+                                negatives.
+                            </p>
+                        </AccordionItem>
+
+                    </Accordion>
+                    {/* <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
+                        View More <span className="icon">⟶</span>
+                    </Button> */}
                 </div>
-            </section>
+                <div className="box-img order-md-1">
+                    <ParallaxImage alt="" src={"/img/esar/vision.jpg"} height="100%" />
+                </div>
 
-            {/*========== team Section ========== */}
-            <section className="container section-margin " data-dsn-title="Team">
-                <TitleSection description={"Our Team"}>
-                    The Best Team Ever!
-                </TitleSection>
+            </DsnGrid>
+            {/*<!-- ========== End box-gallery-vertical image Right ========== */}
 
-                <Team data={getTeamData().slice(0, 4)} col={2} colTablet={2} />
-            </section>
-            {/*========== End team Section ========== */}
 
-            {/*Start testimonial Section*/}
-            <div className="container section-margin" data-dsn-title="testimonials">
-                <TitleSection description={" Feedback"}>What Clients Say</TitleSection>
+            <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Feature">
+                <div className="box-img" >
+                    <ParallaxImage alt="" src={"/img/esar/Quality Assurance.jpg"} height="100%" />
+                </div>
+                <div className="box-info box-padding background-section" >
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Quality Assurance">
+                        Our commitment to quality is unwavering
+                    </TitleSection>
+                    <p className="max-w570 dsn-up mb-10 ">Our commitment to quality is unwavering. We adhere to stringent quality control measures throughout the production process,
+                        <br />
+                        ensuring that our packaging solutions not only meet but exceed industry standards.</p>
 
-                <Testimonial
-                    className=" text-center"
-                    styleBox={"corner"}
-                    skin={["testimonials-personal", "box-line"]}
-                    centeredSlides
-                    desktop={{ slidesPerView: 3 }}
-                    tablet={{ slidesPerView: 1 }}
-                    mobile={{ slidesPerView: 1 }}
-                    speed={1000}
-                    grabCursor
-                    loop
-                    loopedSlides={2}
-                    parallax
-                    parallaxImage={{ "data-swiper-parallax-scale": 0.7 }}
-                    parallaxContent={{
-                        "data-swiper-parallax-opacity": 0,
-                        "data-swiper-parallax": "30%",
-                    }}
-                >
-                    <SwiperPagination
-                        className={`justify-content-between dsn-container mt-30`}
-                    />
-                </Testimonial>
-            </div>
-            {/*End testimonial Section*/}
 
-            {/*========== Start brand-client Section ==========*/}
-            {/* <section className="container section-margin" data-dsn-title="Client">
-                <TitleSection description={"Our clients"}>
-                    Your successful, our <br />
-                    reputation
-                </TitleSection>
+                    <div className="border-bottom mt-30 mb-30" />
 
-                <BrandClient col={4} colTablet={2} colGap={0} rowGap={0} />
-            </section> */}
-            {/*========== End brand-client Section ==========*/}
 
-            {/*========== Start Next Page Section ==========*/}
+                </div>
+            </DsnGrid>
+
+            <DsnGrid className="p-relative over-hidden" col={2} colTablet={1} colGap={0} rowGap={0}>
+                <div className="box-info box-padding background-section order-md-2">
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Environmental Responsibility">
+                        Environmental Responsibility                    </TitleSection>
+
+                    <p className="max-w570 dsn-up">
+                        ESAR Paper Industries Ltd is dedicated to minimizing our ecological footprint.
+                        <br />
+                        We actively seek eco-friendly materials and production processes, promoting sustainability throughout our value chain.</p>
+
+                    <div className="border-bottom mt-30 mb-30" />
+
+                    {/* <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
+                        View More <span className="icon">⟶</span>
+                    </Button> */}
+                </div>
+                <div className="box-img order-md-1">
+                    <ParallaxImage alt="" src={"/img/esar/Environmental Responsibility.jpg"} height="100%" />
+                </div>
+
+            </DsnGrid>
+
             <NextPage className={`background-section section-padding`} />
             {/*========== End Next Page Section ==========*/}
         </Layout>

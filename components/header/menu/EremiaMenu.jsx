@@ -2,57 +2,51 @@ import React from "react";
 import Navbar, { Nav } from "../../nav/Navbar";
 import MenuContent from "./MenuContent";
 import Logo from "../../logo/Logo";
+import { data } from "../../../data/portfolio";
 
 const menuContent = [
   {
     name: "Home",
     href: "/",
-    // dropdownMenu: [
-    //   { name: "Main Demo", href: "/" },
-    //   { name: "One Page 2", href: "/demo-2" },
-    //   { name: "One Page 3", href: "/demo-3" },
-    //   { name: "Corporate", href: "/corporate" },
-    //   { name: "Corporate 2", href: "/corporate-2" },
-    //   { name: "Personal", href: "/personal" },
-    //   { name: "Personal 2", href: "/personal-2" },
-    // ],
   },
 
   {
     name: "Products",
+
     dropdownMenu: [
       {
-        name: "Trims & Accessories",
-        dropdownMenu: [
-          {
-            name: "Hangtags",
-            href: "/",
-          },
-          {
-            name: "Woven and Printed Labels",
-            href: "/",
-          },
-          {
-            name: "Heat Transfer Label",
-            href: "/",
-          },
-          {
-            name: "Care Labels",
-            href: "/",
-          },
-        ],
+        name: "All Products",
+        href: "/all-products",
       },
       {
+        name: "Hangtags",
+        href: "/products/hangtags?id=1",
+      },
+      {
+        name: "Heat Transfer Label",
+        href: "/products/heat-transfer-label?id=2",
+      },
+      {
+        name: "Care Labels",
+        href: "/products/care-label?id=3",
+      },
+      {
+        name: "Woven and Printed Labels",
+        href: "/products/woven-and-printed-labels?id=4",
+      },
+
+      ,
+      {
         name: "Self Adhesive Labels",
-        href: "/",
+        href: "/products/self-adhesive-label?id=5",
       },
       {
         name: "Paper Based Packaging Box",
-        href: "/",
+        href: "/products/paper-based-packaging-box?id=6",
       },
       {
         name: "Belly Band & Photo Inlays",
-        href: "/",
+        href: "/products/belly-band-&-photo-inlays?id=7",
       },
     ],
   },
