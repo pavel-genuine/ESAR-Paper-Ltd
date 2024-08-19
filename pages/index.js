@@ -511,7 +511,7 @@ function Corporate() {
                             <span style={{ fontWeight: 'bold' }}>Innovative Designs:</span>  Incorporating the latest design trends and technologies to create packaging that stands out on the shelves and resonates with consumers.
                         </ListItem>
                     </List>
-                    <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
+                    <Button href={"/about"} className="background-theme mt-30" borderStyle={false} borderRadius>
                         View More <span className="icon">⟶</span>
                     </Button>
                 </div>
