@@ -32,6 +32,8 @@ import Image from "next/image";
 import MoveBox from "../components/move-box/MoveBox";
 import FJustifiedGallery from "../components/justified-gallery/FJustifiedGallery";
 import TitleCover from "../components/heading/TitleCover";
+import DsnLink from "../hooks/DsnLink";
+import Link from "next/link";
 
 const dataSlider = [
     {
@@ -181,31 +183,7 @@ function Corporate() {
                     <Facts className="text-center" col={4} colTablet={2} />
                 </div>
             </div>
-            {/*<!-- ========== end facts-section ========== */}
 
-            {/*Start Service*/}
-            {/* 
-            <div className="container section-margin" data-dsn-title="Our Services">
-                <TitleSection
-                    className="align-items-center text-center"
-                    description={"Our Services"}
-                >
-                    We are providing complete study abroad solution <br /> all over the world for you.
-                </TitleSection>
-                <ServiceOne />
-            </div> */}
-
-
-
-            {/* <div className="container section-margin" data-dsn-title="our Services">
-                <TitleSection description={"WHY CHOOSE US?"}>
-                    We are delivering beautiful <br /> products for you.
-                </TitleSection>
-                <ServiceSwiperOne />
-            </div> */}
-            {/*End Service*/}
-
-            {/*Start Portfolio*/}
             <PortfolioSwiper grabCursor
                 desktop={{ spaceBetween: 0, slidesPerView: 3 }}
                 tablet={{ spaceBetween: 0, slidesPerView: 2, centeredSlides: false }}
@@ -240,49 +218,7 @@ function Corporate() {
 
 
             <section>
-                {/* 
-                <section className="v-ligh" >
-                    <FJustifiedGallery
-                        images={[
 
-                            {
-                                src: "/img/project/project4/4.jpg",
-                                caption: "Web Design",
-                            },
-                            {
-                                src: "/img/project/project4/5.jpg",
-                                caption: "Web Design",
-                            },
-                            {
-                                src: "/img/project/project4/6.jpg",
-                                caption: "Web Design",
-                            },
-                            {
-                                src: "/img/project/project4/7.jpg",
-                                caption: "Web Design",
-                            },
-                            {
-                                src: "/img/project/project4/8.jpg",
-                                caption: "Web Design",
-                            },
-                            {
-                                src: "/img/project/project4/9.jpg",
-                                caption: "Web Design",
-                            },
-                            {
-                                src: "/img/project/project4/10.jpg",
-                                caption: "Web Design",
-                            },
-                            {
-                                src: "/img/project/project4/11.jpg",
-                                caption: "Web Design",
-                            },
-                        ]}
-                        className="section-margin"
-                    />
-
-                </section> */}
-                {/*Start Box Info Move Content*/}
                 <div className="p-relative section-margin v-light">
                     <ParallaxImage src="/img/esar/Woven and Printed Labels1.jpg" overlay={2} alt={""} />
                     <MoveBox>
@@ -309,16 +245,23 @@ function Corporate() {
                     <div className="p-absolute half-bg-bottom w-100 d-sm-none h-50 bottom-0 left-0  v-light" />
                     <div className="dsn-container">
                         <BoxGallery col={2}>
-                            <BoxGalleryItem
-                                src="/img/esar/hang tags.jpg"
-                                groupPopup="gallery"
-                                caption={'Hang Tags'}
-                            />
-                            <BoxGalleryItem
-                                src="/img/esar/Woven and Printed Labels.jpg"
-                                groupPopup="gallery"
-                                caption={'Woven and Printed Labels'}
-                            />
+                            <Link
+                                href="/products/hangtags?id=1"
+                            >
+                                <BoxGalleryItem
+                                    src="/img/esar/hang tags.jpg"
+                                    groupPopup="gallery"
+                                    caption={'Hang Tags'}
+                                />
+                            </Link>
+                            <Link
+                                href="/products/woven-and-printed-labels?id=4"
+                            >
+                                <BoxGalleryItem
+                                    src="/img/esar/Woven and Printed Labels.jpg"
+                                    groupPopup="gallery"
+                                    caption={'Woven and Printed Labels'}
+                                /></Link>
                         </BoxGallery>
                     </div>
                 </div>
@@ -343,16 +286,19 @@ function Corporate() {
                     <div className="p-absolute half-bg-bottom d-sm-none w-100 h-50 top-0 left-0  v-light" />
                     <div className="dsn-container">
                         <BoxGallery col={2}>
-                            <BoxGalleryItem
-                                src="/img/esar/Heat Transfer Label.png"
-                                groupPopup="gallery"
-                                caption={'Heat Transfer Label'}
-                            />
-                            <BoxGalleryItem
-                                src="/img/esar/Care Labels.jpg"
-                                groupPopup="gallery"
-                                caption={'Care Labels'}
-                            />
+                            <Link href={"/products/heat-transfer-label?id=2"}>
+
+                                <BoxGalleryItem
+                                    src="/img/esar/Heat Transfer Label.png"
+                                    groupPopup="gallery"
+                                    caption={'Heat Transfer Label'}
+                                />   </Link>
+                            <Link href={"/products/care-label?id=3"}>
+                                <BoxGalleryItem
+                                    src="/img/esar/Care Labels.jpg"
+                                    groupPopup="gallery"
+                                    caption={'Care Labels'}
+                                /></Link>
                         </BoxGallery>
                     </div>
                 </div>
@@ -361,6 +307,7 @@ function Corporate() {
             </section>
 
             <section >
+
                 <HeaderFull className="dsn-container"
                     alignItems="end"
                     heroContent={heroData} overlay={heroData?.overlay} />
@@ -373,16 +320,18 @@ function Corporate() {
 
                     {/*Start Gallery List*/}
                     <BoxGallery className="section-margin container" col={2}>
-                        <BoxGalleryItem
-                            src='/img/esar/box1111.webp'
-                            groupPopup="gallery"
-                            caption={"Paper Based Packaging Box "}
-                        />
-                        <BoxGalleryItem
-                            src="/img/esar/box1.webp"
-                            groupPopup="gallery"
-                            caption={"Paper Based Packaging Box"}
-                        />
+                        <Link href={"/products/paper-based-packaging-box?id=6"}>
+                            <BoxGalleryItem
+                                src='/img/esar/box1111.webp'
+                                groupPopup="gallery"
+                                caption={"Paper Based Packaging Box "}
+                            /></Link>
+                        <Link href={"/products/paper-based-packaging-box?id=6"}>
+                            <BoxGalleryItem
+                                src="/img/esar/box1.webp"
+                                groupPopup="gallery"
+                                caption={"Paper Based Packaging Box"}
+                            /></Link>
                     </BoxGallery>
                     {/*End Gallery List*/}
 
@@ -393,8 +342,8 @@ function Corporate() {
                                 Convey the perfect match for your brand's identity
                             </h4>
 
-                            <Image className="w-100" alt={""} src={"/img/esar/box111 (2).png"} width={1200} height={700}
-                                sizes="100vw" />
+                            <Link href={"/products/paper-based-packaging-box?id=6"}>    <Image className="w-100" alt={""} src={"/img/esar/box111 (2).png"} width={1200} height={700}
+                                sizes="100vw" /></Link>
                             <p className="dsn-up mt-30 ml-auto mr-auto max-w570">
                                 From concept to execution, we bring innovation and strategic design to the forefront, ensuring that our packaging solutions make a lasting impact in the competitive market landscape.
                             </p>
@@ -420,21 +369,21 @@ function Corporate() {
                 {/*Start Gallery List*/}
                 <div className="section-padding v-light full-width">
                     <BoxGallery className="section-margin container" col={3}>
-                        <BoxGalleryItem
+                        <Link href={"/products/belly-band-&-photo-inlays?id=7"}> <BoxGalleryItem
                             src={"/img/esar/band1.jpg"}
                             groupPopup="gallery"
                             caption={'Belly Band & Photo Inlays'}
-                        />
-                        <BoxGalleryItem
+                        /></Link>
+                        <Link href={"/products/belly-band-&-photo-inlays?id=7"}> <BoxGalleryItem
                             src={"/img/esar/band2.jpg"}
                             groupPopup="gallery"
                             caption={'Belly Band & Photo Inlays'}
-                        />
-                        <BoxGalleryItem
+                        /></Link>
+                        <Link href={"/products/belly-band-&-photo-inlays?id=7"}>  <BoxGalleryItem
                             src={"/img/esar/band4.jpg"}
                             groupPopup="gallery"
                             caption={'Belly Band & Photo Inlays'}
-                        />
+                        /></Link>
                     </BoxGallery>
                 </div>
                 {/*End Gallery List*/}
@@ -451,23 +400,23 @@ function Corporate() {
                 <section className="box-gallery-vertical container section-margin">
                     <DsnGrid col={2} colGap={0}>
                         <div className="p-relative mb-lg-section">
-                            <div className="box-im w-100 h-100 p-absolute">
+                            <Link href={"/products/self-adhesive-label?id=5"}>   <div className="box-im w-100 h-100 p-absolute">
                                 <ParallaxImage
                                     alt={""}
                                     src={"/img/esar/tap3.png"}
                                     height="100%"
                                 />
-                            </div>
+                            </div></Link>
                         </div>
                         <div className="p-relative pt-lg-section">
                             <div className="box-info h-100 box-padding background-section ">
                                 <TitleCover>Self </TitleCover>
-                                <TitleSection
+                                <Link href={"/products/self-adhesive-label?id=5"}>  <TitleSection
                                     className={"text-uppercase mb-30"}
                                     defaultSpace={false}
                                 >
                                     Adhesive Labels
-                                </TitleSection>
+                                </TitleSection></Link>
 
                                 <p>
                                     Elevate your brand connection with our durable and removable self-adhesive label. These labels go beyond mere identification; they enable businesses to forge a more personal connection with customers.
