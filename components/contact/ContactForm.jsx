@@ -40,13 +40,11 @@ function ContactForm({ className }) {
       <div className="line line-left" />
       <div className="line line-right" />
 
-      <TitleSection description="Stay connected" defaultSpace={false}>
-        Get in Touch
-      </TitleSection>
-      <p className="mb-30 mt-20">
-        It’s all about the humans behind a brand and those experiencing it,
-        we’re right there. In the middle.
-      </p>
+      <div className="mb-15">
+        <TitleSection description="Stay connected" defaultSpace={false}>
+          Get in Touch
+        </TitleSection>
+      </div>
 
       <form className="form" ref={form} onSubmit={sendEmail}>
         <div className="input__wrap controls">
