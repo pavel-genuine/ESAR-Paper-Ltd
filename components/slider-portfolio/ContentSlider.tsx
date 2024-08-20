@@ -45,7 +45,9 @@ function ContentSlider(
             </HeroButton>
           }
           {item.subtitle && (
-            <p className="description max-w570 mb-15">{item.subtitle}</p>
+            <p className="description max-w570 mb-15 pl-10 pr-10">
+              {item.subtitle}
+            </p>
           )}
           {item.category && hasCategory && (
             <MetaPost category={item.category} separate={separateCat} />

@@ -35,33 +35,34 @@ import TitleCover from "../components/heading/TitleCover";
 
 const dataSlider = [
     {
-        id: 1,
-        title: `Craft Elegant <br /> Solutions`,
+        id: 5,
+        title: `Perfect Match <br/> For Your Brand `,
         href: {
             href: "#0",
             target: "_blank",
             rel: "nofollow"
         },
         buttonText: "ESAR Paper Industries Limited",
-        subtitle: `We're a design studio that believe in the ideas`,
+        src: '/img/esar/Hang Tags (1).jpg',
+        subtitle: `We've a design team that believe in the ideas`,
+        overlay: 6
+    },
+    {
+        id: 1,
+        title: ` Extensive <br/> Product Range `,
+        href: {
+            href: "#0",
+            target: "_blank",
+            rel: "nofollow"
+        },
+        buttonText: "ESAR Paper Industries Limited",
+        subtitle: `Finest material sourcing all over the world`,
         src: '/img/esar/box.avif',
         overlay: 6,
 
     },
-    {
-        id: 2,
-        title: `Craft Elegant <br /> Solutions`,
-        href: {
-            href: "#0",
-            target: "_blank",
-            rel: "nofollow"
-        },
-        buttonText: "ESAR Paper Industries Limited",
-        subtitle: `We're a design studio that believe in the ideas`,
-        src: '/img/esar/zipper.jpg',
-        overlay: 6,
 
-    },
+
     {
         id: 22,
         title: `Craft Elegant <br /> Solutions`,
@@ -71,14 +72,14 @@ const dataSlider = [
             rel: "nofollow"
         },
         buttonText: "ESAR Paper Industries Limited",
-        subtitle: `We're a design studio that believe in the ideas`,
+        subtitle: `Final outputs will amaze you`,
         src: '/img/esar/buttons.webp',
         overlay: 6,
 
     },
     {
         id: 3,
-        title: `Crafting Digital <br/> Experiences`,
+        title: `FSC™ Certified <br/> Materials`,
 
         href: {
             href: "#0",
@@ -93,7 +94,7 @@ const dataSlider = [
     },
     {
         id: 4,
-        title: `Creative <br/> Solutions`,
+        title: `Elevates <br/> Visual Allure`,
         href: {
             href: "#0",
             target: "_blank",
@@ -101,21 +102,23 @@ const dataSlider = [
         },
         buttonText: "ESAR Paper Industries Limited",
         src: '/img/esar/Belly Band & Photo Inlays.jpg',
-        subtitle: `We're a design studio that believe in the ideas`,
+        subtitle: `Execution is the key to our success`,
         overlay: 6
     },
+
     {
-        id: 5,
-        title: `Creative <br/> Solutions`,
+        id: 2,
+        title: `Craft Elegant <br /> Solutions`,
         href: {
             href: "#0",
             target: "_blank",
             rel: "nofollow"
         },
         buttonText: "ESAR Paper Industries Limited",
-        src: '/img/esar/Hang Tags (1).jpg',
-        subtitle: `We're a design studio that believe in the ideas`,
-        overlay: 6
+        subtitle: `we believe in our expart teams & partners`,
+        src: '/img/esar/ecoband-custom.avif',
+        overlay: 6,
+
     },
 
 ]
@@ -214,7 +217,7 @@ function Corporate() {
                 speed={800}
                 watchSlidesProgress
                 loopedSlides={2}
-                data-dsn-title="our Work"
+                data-dsn-title="Products"
             />
 
             {/*End Portfolio*/}
@@ -484,7 +487,7 @@ function Corporate() {
             </section>
 
             {/*<!-- ========== box-gallery-vertical image left ========== */}
-            <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Feature">
+            <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Mission & Vision">
                 <div className="box-img" >
                     <ParallaxImage alt="" src={"/img/esar/mission.webp"} height="100%" />
                 </div>
