@@ -125,8 +125,8 @@ function MyApp({ Component, pageProps }) {
     return (<>
         <Head>
             <title>ESAR Paper Industries Ltd</title>
-            <meta name="description" content="Ultimate solution for
-apparel Trims & Packaging." />
+            <meta name="description" content="Ultimate Solution for
+Apparel Trims & Packaging." />
             <link rel="icon" href="/img/favicon.ico" />
             <link rel="apple-touch-icon" href="/img/favicon.ico" />
         </Head>
