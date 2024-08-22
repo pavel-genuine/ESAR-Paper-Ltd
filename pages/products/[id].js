@@ -20,6 +20,7 @@ import BoxGallery, {
     BoxGalleryItem,
 } from "../../components/box-gallery/BoxGallery";
 import Image from "next/image";
+import NextPage from "../../components/next/NextPage.jsx";
 
 function Home() {
     TitleSection.defaultProps = {
@@ -134,7 +135,7 @@ function Home() {
 
             </div>
 
-
+            <NextPage className={`background-section section-padding`} />
 
             {/*========== Footer ==========*/}
             <Footer className="background-section" />
