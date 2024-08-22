@@ -128,7 +128,7 @@ function MyApp({ Component, pageProps }) {
             <meta name="description" content="Ultimate solution for
 apparel Trims & Packaging." />
             <link rel="icon" href="/img/favicon.ico" />
-            <link rel="apple-touch-icon" href="/img/open.png" />
+            <link rel="apple-touch-icon" href="/img/favicon.ico" />
         </Head>
         <Provider store={store}>
 
