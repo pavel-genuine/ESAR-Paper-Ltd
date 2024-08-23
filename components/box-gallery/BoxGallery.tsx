@@ -85,16 +85,7 @@ export function BoxGalleryItem({
         </div>
 
         {caption && (
-          <p
-            style={{
-              color: "#8b6948",
-              fontSize: "20px",
-              fontWeight: "normal",
-              marginTop: "10px",
-            }}
-          >
-            {caption}
-          </p>
+          <h6 className="dsn-up mt-30 ml-auto mr-auto max-w570">{caption}</h6>
         )}
       </div>
     )

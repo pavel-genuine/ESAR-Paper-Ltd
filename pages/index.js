@@ -204,7 +204,7 @@ function Corporate() {
             {/*<!-- ========== end facts-section ========== */}
 
 
-            <div className=" section-padding v-light full-width  " >
+            {/* <div className=" section-padding v-light full-width  " >
                 <div className="container">
                     <Portfolio stylePortfolio={"work-section"}
                         className="title-inherit h4 "
@@ -213,13 +213,13 @@ function Corporate() {
                         col={3} colGap={50} rowGap={80}
                     />
                 </div>
-            </div>
+            </div> */}
 
 
 
             <section>
 
-                <div className="p-relative section-margin v-light">
+                {/* <div className="p-relative section-margin v-light">
                     <ParallaxImage src="/img/esar/Woven and Printed Labels1.jpg" overlay={2} alt={""} />
                     <MoveBox>
                         <TitleSection className={`align-items-start mb-30`}
@@ -232,198 +232,37 @@ function Corporate() {
                         <p>. The design and content of trims can vary widely based on the brand's identity, target audience, and the nature of the product. </p>
 
                     </MoveBox>
-                </div>
+                </div> */}
                 {/*End Box Info Move Content*/}
             </section>
 
 
-            <section>
-
-
-                {/*Start Gallery List*/}
-                <div className="mt-section mb-sm-section has-in-halg-bg p-relative">
-                    <div className="p-absolute half-bg-bottom w-100 d-sm-none h-50 bottom-0 left-0  v-light" />
-                    <div className="dsn-container">
-                        <BoxGallery col={2}>
-                            <Link
-                                href="/products/hangtags?id=1"
-                            >
-                                <BoxGalleryItem
-                                    src="/img/esar/hang tags.jpg"
-                                    groupPopup="gallery"
-                                    caption={'Hang Tags'}
-                                />
-                            </Link>
-                            <Link
-                                href="/products/woven-and-printed-labels?id=4"
-                            >
-                                <BoxGalleryItem
-                                    src="/img/esar/Woven and Printed Labels.jpg"
-                                    groupPopup="gallery"
-                                    caption={'Woven and Printed Labels'}
-                                /></Link>
-                        </BoxGallery>
-                    </div>
-                </div>
-                {/*End Gallery List*/}
-
-                {/*Start Intro Project*/}
-                <section className="text-center section-padding v-light">
-                    <div className="container">
-                        <div className="max-w750 ml-auto mr-auto">
-                            <h4 className="title-block dsn-text mb-20 words splitting overflow-hidden">
-                                We serve with our expert team & finest raw materials
-                            </h4>
-                            <p className="dsn-up">
-                                We specialize in catering to, primarily but not only, apparel, footwear, and home textile industries, tailoring every solution to the brand identity and needs. Our dedicated team can create tailor-made trims to meet the unique branding and design requirements of our clients, ensuring that each accessory complements the overall look and feel of the product </p>
-                        </div>
-                    </div>
-                </section>
-                {/*End Intro Project*/}
-
-                {/*Start Gallery List*/}
-                <div className="mb-section has-in-halg-bg p-relative mt-sm-section">
-                    <div className="p-absolute half-bg-bottom d-sm-none w-100 h-50 top-0 left-0  v-light" />
-                    <div className="dsn-container">
-                        <BoxGallery col={2}>
-                            <Link href={"/products/heat-transfer-label?id=2"}>
-
-                                <BoxGalleryItem
-                                    src="/img/esar/Heat Transfer Label.png"
-                                    groupPopup="gallery"
-                                    caption={'Heat Transfer Label'}
-                                />   </Link>
-                            <Link href={"/products/care-label?id=3"}>
-                                <BoxGalleryItem
-                                    src="/img/esar/Care Labels.jpg"
-                                    groupPopup="gallery"
-                                    caption={'Care Labels'}
-                                /></Link>
-                        </BoxGallery>
-                    </div>
-                </div>
-                {/*End Gallery List*/}
-
-            </section>
-
-            <section >
-
-                <HeaderFull className="dsn-container"
-                    alignItems="end"
-                    heroContent={heroData} overlay={heroData?.overlay} />
-
-                <section className=" section-padding v-light full-width  " >
-                    {/*Start Intro Project*/}
-
-                    {/*End Intro Project*/}
-
-
-                    {/*Start Gallery List*/}
-                    <BoxGallery className="section-margin container" col={2}>
-                        <Link href={"/products/paper-based-packaging-box?id=6"}>
-                            <BoxGalleryItem
-                                src='/img/esar/box1111.webp'
-                                groupPopup="gallery"
-                                caption={"Paper Based Packaging Box "}
-                            /></Link>
-                        <Link href={"/products/paper-based-packaging-box?id=6"}>
-                            <BoxGalleryItem
-                                src="/img/esar/box1.webp"
-                                groupPopup="gallery"
-                                caption={"Paper Based Packaging Box"}
-                            /></Link>
-                    </BoxGallery>
-                    {/*End Gallery List*/}
-
-                    {/*Start Intro Project*/}
-                    <section className="container section-margin text-center">
-                        <div className="p-relative">
-                            <h4 className="title-block dsn-text max-w570 ml-auto mr-auto mb-70 sm-mb-30">
-                                Convey the perfect match for your brand's identity
-                            </h4>
-
-                            <Link href={"/products/paper-based-packaging-box?id=6"}>    <Image className="w-100" alt={""} src={"/img/esar/box111 (2).png"} width={1200} height={700}
-                                sizes="100vw" /></Link>
-                            <p className="dsn-up mt-30 ml-auto mr-auto max-w570">
-                                From concept to execution, we bring innovation and strategic design to the forefront, ensuring that our packaging solutions make a lasting impact in the competitive market landscape.
-                            </p>
-                        </div>
-                    </section>
-                    {/*End Intro Project*/}
-                </section>
-            </section>
-
-
-
-            <section>
-                {/*Start Parallax Img*/}
-                <ParallaxImage
-                    alt={""}
-                    src={"/img/esar/ecoband-custom.avif"}
-                    overlay={3}
-                    caption="Belly Band & Photo Inlays"
-                />
-                {/*End Parallax Img*/}
-
-
-                {/*Start Gallery List*/}
-                <div className="section-padding v-light full-width">
-                    <BoxGallery className="section-margin container" col={3}>
-                        <Link href={"/products/belly-band-&-photo-inlays?id=7"}> <BoxGalleryItem
-                            src={"/img/esar/band1.jpg"}
-                            groupPopup="gallery"
-                            caption={'Belly Band & Photo Inlays'}
-                        /></Link>
-                        <Link href={"/products/belly-band-&-photo-inlays?id=7"}> <BoxGalleryItem
-                            src={"/img/esar/band2.jpg"}
-                            groupPopup="gallery"
-                            caption={'Belly Band & Photo Inlays'}
-                        /></Link>
-                        <Link href={"/products/belly-band-&-photo-inlays?id=7"}>  <BoxGalleryItem
-                            src={"/img/esar/band4.jpg"}
-                            groupPopup="gallery"
-                            caption={'Belly Band & Photo Inlays'}
-                        /></Link>
-                    </BoxGallery>
-                </div>
-                {/*End Gallery List*/}
-
-                {/*Start Parallax Img*/}
-                <ParallaxImage
-                    alt={""}
-                    src={"/img/esar/tap1.jpg"}
-                    caption="Self Adhesive Labels"
-                />
-                {/*End Parallax Img*/}
-
-                {/*Start box vertical Section*/}
-                <section className="box-gallery-vertical container section-margin">
+            <section className="v-light full-width pb-10 pt-10">
+                <section className="box-gallery-vertical container section-margin v-light">
                     <DsnGrid col={2} colGap={0}>
                         <div className="p-relative mb-lg-section">
-                            <Link href={"/products/self-adhesive-label?id=5"}>   <div className="box-im w-100 h-100 p-absolute">
+                            <Link href={"/all-products"}>   <div className="box-im w-100 h-100 p-absolute">
                                 <ParallaxImage
                                     alt={""}
-                                    src={"/img/esar/tap3.png"}
+                                    src={'/img/esar/Woven and Printed Labels1.jpg'}
                                     height="100%"
                                 />
                             </div></Link>
                         </div>
                         <div className="p-relative pt-lg-section">
                             <div className="box-info h-100 box-padding background-section ">
-                                <TitleCover>Self </TitleCover>
-                                <Link href={"/products/self-adhesive-label?id=5"}>  <TitleSection
+                                <TitleCover>ESAR</TitleCover>
+                                <Link href={"/all-products"}>  <TitleSection
                                     className={"text-uppercase mb-30"}
                                     defaultSpace={false}
                                 >
-                                    Adhesive Labels
+                                    Trims & Accessories
                                 </TitleSection></Link>
 
                                 <p>
-                                    Elevate your brand connection with our durable and removable self-adhesive label. These labels go beyond mere identification; they enable businesses to forge a more personal connection with customers.
-                                </p>
+                                    Discover the perfect match for your brand's sustainability journey with our diverse range of trims & accessories.                            </p>
                                 <p className="mt-15">
-                                    Our self-adhesive peel-off labels are designed to endure both high and cold temperatures, ensuring resilience in various applications. Whether your products face the heat of summer or the chill of winter, our labels remain steadfast, offering the best labeling solution for a range of scenarios.
-                                </p>
+                                    Trims contribute to the visual appeal and design aesthetics of products. Hangtags, Labels and other trims serve as a direct communication tool between the brand and the consumer, conveying important information and contributing to the overall branding and marketing strategy.                                     </p>
                                 {/* <Button href="#0" className="mt-30">
                                     View More <span className="icon">⟶</span>
                                 </Button> */}
@@ -431,7 +270,107 @@ function Corporate() {
                         </div>
                     </DsnGrid>
                 </section>
-                {/*End box vertical Section*/}
+
+            </section>
+
+            <section className=" v-light full-width">
+
+                <div className="">
+                    <BoxGallery className="container pb-70" col={2}>
+                        <Link
+                            href="/products/hangtags?id=1"
+                        >
+                            <BoxGalleryItem
+                                src="/img/esar/hang tags.jpg"
+                                groupPopup="gallery"
+                                caption={'Hang Tags'}
+                            />
+                        </Link>
+                        <Link
+                            href="/products/woven-and-printed-labels?id=4"
+                        >
+                            <BoxGalleryItem
+                                src="/img/esar/Woven and Printed Labels.jpg"
+                                groupPopup="gallery"
+                                caption={'Woven and Printed Labels'}
+                            /></Link>
+                    </BoxGallery>
+                    <BoxGallery className="container" col={2}>
+                        <Link href={"/products/heat-transfer-label?id=2"}>
+
+                            <BoxGalleryItem
+                                src="/img/esar/Heat Transfer Label.png"
+                                groupPopup="gallery"
+                                caption={'Heat Transfer Label'}
+                            />   </Link>
+                        <Link href={"/products/care-label?id=3"}>
+                            <BoxGalleryItem
+                                src="/img/esar/Care Labels.jpg"
+                                groupPopup="gallery"
+                                caption={'Care Labels'}
+                            /></Link>
+
+                    </BoxGallery>
+
+
+                </div>
+
+
+                {/*Start Intro Project*/}
+                <section className="text-center section-padding v-light full-width">
+                    <div className="container">
+                        <div className="max-w750 ml-auto mr-auto">
+                            <h4 className="title-block dsn-text mb-20 words splitting overflow-hidden">
+                                Finest Trims & Accessories Raw Materials & Expert Team
+                            </h4>
+                            <p className="dsn-up">
+                                We specialize in catering to, primarily but not only, apparel, footwear, and home textile industries, tailoring every solution to the brand identity and needs. Our dedicated team can create tailor-made trims to meet the unique branding and design requirements of our clients, ensuring that each accessory complements the overall look and feel of the product </p>
+                        </div>
+                    </div>
+                </section>
+                <section className="container  text-center">
+                    <div className="p-relative">
+
+                        <Link href={"/products/paper-based-packaging-box?id=6"}>
+                            <Image className="w-70" alt={""} src={"/img/esar/box111 (2).png"} width={1200} height={700}
+                                sizes="100vw" /></Link>
+                        <h6 className="dsn-up mt-30 ml-auto mr-auto max-w570">
+                            Paper Based Packaging Box                        </h6>
+                    </div>
+                </section>
+            </section>
+
+
+
+
+            <section>
+
+
+                {/*Start Gallery List*/}
+                <div className="section-padding v-light full-width">
+                    <BoxGallery className=" container" col={2}>
+                        <Link href={"/products/belly-band-&-photo-inlays?id=7"}> <BoxGalleryItem
+                            src={"/img/esar/tap1.jpg"}
+                            groupPopup="gallery"
+                            caption={'Self Adhesive Labels'}
+                        /></Link>
+                        <Link href={"/products/belly-band-&-photo-inlays?id=7"}> <BoxGalleryItem
+                            src={"/img/esar/band2.jpg"}
+                            groupPopup="gallery"
+                            caption={'Belly Band & Photo Inlays'}
+                        /></Link>
+
+                    </BoxGallery>
+                </div>
+                {/*End Gallery List*/}
+
+                {/*Start Parallax Img*/}
+                {/* <ParallaxImage
+                    alt={""}
+                    src={"/img/esar/tap1.jpg"}
+                    caption="Self Adhesive Labels"
+                /> */}
+                {/*End Parallax Img*/}
 
             </section>
 
