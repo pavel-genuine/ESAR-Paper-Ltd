@@ -22,37 +22,39 @@ function About() {
             <Head>
                 <title>Contact Us | ESAR Paper Industries Ltd</title>
             </Head>
-            {/*========== Header Normal ========== */}
-            <HeaderNormal className="text-center">
-                <p className="subtitle p-relative line-shape  mb-20">
-                    <span className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd</span>
-                </p>
-                <h1 className="title text-uppercase">
-                    Look around you<br /> everything is changing.
-                </h1>
-                <p className="dsn-heading-title mt-15 max-w570">What if the time has come for you to
-                    change?
-                    Starting a collaboration is easy! Order a free consultation or call back. We are always in touch and
-                    happy to cooperate with you
-                </p>
-            </HeaderNormal>
-            {/*========== End Header Normal ==========*/}
-            {/*Start Map*/}
-            <Map
-                mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
-                zoom={10}
-                height="80vh"
-                defaultCenter={{ lat: 23.86408, lng: 90.3917306 }}
-            />
+            <section >
+                {/*========== Header Normal ========== */}
+                <HeaderNormal className="text-center">
+                    <p className="subtitle p-relative line-shape  mb-20">
+                        <span className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd</span>
+                    </p>
+                    <h1 className="title text-uppercase">
+                        Look around you<br /> everything is changing.
+                    </h1>
+                    <p className="dsn-heading-title mt-15 max-w570">What if the time has come for you to
+                        change?
+                        Starting a collaboration is easy! Order a free consultation or call back. We are always in touch and
+                        happy to cooperate with you
+                    </p>
+                </HeaderNormal>
+                {/*========== End Header Normal ==========*/}
+                {/*Start Map*/}
+                <Map
+                    mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
+                    zoom={10}
+                    height="80vh"
+                    defaultCenter={{ lat: 23.86408, lng: 90.3917306 }}
+                />
 
-            {/*Start Contact Form && Info Box*/}
-            <div className="section-margin container">
-                <DsnGrid col={2} colTablet={1}>
-                    <ContactForm />
-                    <InfoBox className="align-self-center" />
-                </DsnGrid>
-            </div>
+                {/*Start Contact Form && Info Box*/}
+                <div className="section-margin container">
+                    <DsnGrid col={2} colTablet={1}>
+                        {/* <ContactForm /> */}
+                        <InfoBox className="align-self-center" />
+                    </DsnGrid>
+                </div>
 
+            </section>
 
             {/*========== Start Next Page Section ==========*/}
             <NextPage2 className={`background-section section-padding`} />

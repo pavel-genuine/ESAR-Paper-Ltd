@@ -20,31 +20,6 @@ function InfoBox({ className }) {
             Sector 05, Road 1B, House 11, Uttara, <br /> Dhaka-1230, Bangladesh
           </p>
         </li>
-        <li>
-          <h5 className="title-block mb-15">Follow Us</h5>
-          <div className="social-item over-hidden">
-            <a
-              className="link-hover"
-              data-hover-text="Instagram."
-              href="#"
-              target="_blank"
-              rel="nofollow"
-            >
-              Instagram.
-            </a>
-          </div>
-          <div className="social-item over-hidden">
-            <a
-              className="link-hover"
-              data-hover-text="Facebook."
-              href="https://facebook.com/ESARPaper Industries Ltd"
-              target="_blank"
-              rel="nofollow"
-            >
-              Facebook.
-            </a>
-          </div>
-        </li>
       </ul>
     </div>
   );
