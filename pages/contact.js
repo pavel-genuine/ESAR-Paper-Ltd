@@ -18,19 +18,19 @@ function About() {
     };
 
     return (
-        <Layout>
+        <Layout className='v-light'>
             <Head>
                 <title>Contact Us | ESAR Paper Industries Ltd</title>
             </Head>
             <section >
                 {/*========== Header Normal ========== */}
                 <HeaderNormal className="text-center">
-                    <p className="subtitle p-relative line-shape  mb-20">
+                    <p className="title p-relative line-shape  mb-20">
                         <span className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd</span>
                     </p>
-                    <h1 className="title text-uppercase">
+                    <TitleSection className="title text-uppercase">
                         Look around you<br /> everything is changing.
-                    </h1>
+                    </TitleSection>
                     <p className="dsn-heading-title mt-15 max-w570">What if the time has come for you to
                         change?
                         Starting a collaboration is easy! Order a free consultation or call back. We are always in touch and

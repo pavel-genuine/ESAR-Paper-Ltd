@@ -42,7 +42,7 @@ function Home() {
 
 
     return (
-        <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
+        <Layout className='v-light' modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
             <Head>
 
                 <title> Product : {productData?.title}  | ESAR Paper Industries Ltd</title>

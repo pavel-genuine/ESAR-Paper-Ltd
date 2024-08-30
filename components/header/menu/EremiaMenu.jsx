@@ -74,19 +74,21 @@ const EremiaMenu = ({ hamburger }) => {
   };
 
   return (
-    <Navbar hamburger={hamburger}>
-      <Navbar.Brand
-        href={"/"}
-        transitionPage={{ title: "ESAR Paper Industries Ltd" }}
-      >
-        <Logo height="auto" />
-      </Navbar.Brand>
+    <section className="v-light">
+      <Navbar hamburger={hamburger}>
+        <Navbar.Brand
+          href={"/"}
+          transitionPage={{ title: "ESAR Paper Industries Ltd" }}
+        >
+          <Logo height="auto" />
+        </Navbar.Brand>
 
-      <Navbar.Collapse cover="Menu">
-        <Nav>{menuContent.map((item) => getSubMenu(item))}</Nav>
-        <MenuContent className="section-margin" />
-      </Navbar.Collapse>
-    </Navbar>
+        <Navbar.Collapse cover="Menu">
+          <Nav>{menuContent.map((item) => getSubMenu(item))}</Nav>
+          <MenuContent className="section-margin" />
+        </Navbar.Collapse>
+      </Navbar>
+    </section>
   );
 };
 

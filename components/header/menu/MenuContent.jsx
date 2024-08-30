@@ -27,15 +27,7 @@ function MenuContent({ className }) {
         </div>
         <div className="nav-content mt-30">
           <h5 className="sm-title-block mb-10">Contact</h5>
-          <p className="links over-hidden mb-1">
-            <a
-              className="link-hover"
-              href="tel:+880 1713-334877"
-              data-hover-text="+880 1713-334877"
-            >
-              +880 1713-334877
-            </a>
-          </p>
+
           <p className="links over-hidden">
             <a
               className="link-hover"
@@ -47,7 +39,7 @@ function MenuContent({ className }) {
           </p>
         </div>
       </div>
-      <div className="nav-social nav-content mt-30">
+      {/* <div className="nav-social nav-content mt-30">
         <div className="nav-social-inner p-relative">
           <h5 className="sm-title-block mb-10">Follow us</h5>
           <ul>
@@ -64,7 +56,7 @@ function MenuContent({ className }) {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -33,18 +33,18 @@ function About() {
 
 
     return (
-        <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
+        <Layout className='v-light' modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
             <Head>
                 <title>About Us | ESAR Paper Industries Ltd</title>
             </Head>
             {/*========== Header Normal ========== */}
             <HeaderNormal className="">
-                <p className="subtitle p-relative line-shape line-shape-after mb-30">
+                <p className="title p-relative line-shape line-shape-after mb-30">
                     <span className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd </span>
                 </p>
-                <h1 className="title text-uppercase">
+                <TitleSection className=" text-uppercase">
                     One stop solution for <br /> apparel Trims & Packaging <br /> products and services.
-                </h1>
+                </TitleSection>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}
 

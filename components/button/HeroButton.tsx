@@ -50,7 +50,10 @@ function HeroButton({
           )}
         />
       )}
-      <span style={{ color: "#dbc768", fontSize: "20px", textAlign: "left" }}>
+      <span
+        className="hero-logo-mobile-text"
+        style={{ color: "#dbc768", textAlign: "left" }}
+      >
         ESAR Paper <br /> <br /> Industries <br /> <br /> Limited
       </span>
     </Link>

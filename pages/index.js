@@ -142,18 +142,7 @@ function Corporate() {
                 <title>ESAR Paper Industries Ltd </title>
             </Head>
             <div data-dsn-title="Banner">
-                <div>
-                    <div className="hero-logo " >
-                        <HeroButton className={"link-custom mt-20"} >
-                        </HeroButton>
-                        <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center', }}>
-                            <div style={{ width: '110px', height: '110px', display: 'flex', justifyContent: 'center', alignItems: 'center', }} >
-                                {/* <Logo width="90px" height="auto" /> */}
-                            </div>
-                            {/* <p style={{ fontSize: '25px', color: 'white', backgroundColor: '#dbc768', padding: '10px' }}>ESAR Paper <br /> Industries <br /> Limited</p> */}
-                        </div>
-                    </div>
-                </div>
+
                 <SliderPortfolio webgel
                     fullWidth
                     alignControlNav={"center"}
