@@ -21,9 +21,7 @@ function MenuContent({ className }) {
       <div className="nav__info">
         <div className="nav-content">
           <h5 className="sm-title-block mb-10">Office</h5>
-          <p>
-            Sector 05, Road 1B, House 11, Uttara, <br /> Dhaka-1230, Bangladesh
-          </p>
+          <p>Gazipur, Bangladesh</p>
         </div>
         <div className="nav-content mt-30">
           <h5 className="sm-title-block mb-10">Contact</h5>

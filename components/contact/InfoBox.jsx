@@ -16,7 +16,7 @@ function InfoBox({ className }) {
         </li>
         <li>
           <h5 className="title-block mb-15">Address</h5>
-          <p className="text-p">Gazipur, Bangladesh</p>
+          <p className="text-p">Gazipur, Bangladeshcccc</p>
         </li>
       </ul>
     </div>
