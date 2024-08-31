@@ -95,7 +95,7 @@ function Layout({
       </div>
 
       <div className="line-border-style w-100 h-100" />
-      <SocialOne />
+      {/* <SocialOne /> */}
       <div className="dsn-paginate-right-page" ref={paginateRight} />
       {modelRight && (
         <ModalRight {...modelRight.propsModal}>
