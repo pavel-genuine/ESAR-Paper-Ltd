@@ -26,7 +26,7 @@ function About() {
                 {/*========== Header Normal ========== */}
                 <HeaderNormal className="text-center">
                     <p className="title p-relative line-shape  mb-20">
-                        <span className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd</span>
+                        <span style={{ color: '#8b6948' }} className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd</span>
                     </p>
                     <TitleSection className="title text-uppercase">
                         Look around you<br /> everything is changing.
@@ -39,12 +39,12 @@ function About() {
                 </HeaderNormal>
                 {/*========== End Header Normal ==========*/}
                 {/*Start Map*/}
-                <Map
+                {/* <Map
                     mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
                     zoom={10}
                     height="80vh"
                     defaultCenter={{ lat: 23.86408, lng: 90.3917306 }}
-                />
+                /> */}
 
                 {/*Start Contact Form && Info Box*/}
                 <div className="section-margin container">
@@ -57,11 +57,11 @@ function About() {
             </section>
 
             {/*========== Start Next Page Section ==========*/}
-            <NextPage2 className={`background-section section-padding`} />
+            <NextPage2 className={` section-padding`} />
             {/*========== End Next Page Section ==========*/}
 
             {/*========== Footer ==========*/}
-            <Footer className="background-section" />
+            <Footer className="" />
             {/*========== End Footer ==========*/}
         </Layout>
     );

@@ -66,8 +66,7 @@ function Home() {
             <div className="news-content  pt-40 pb-40 v-light">
                 <div className="single-post container post-content  ">
 
-                    {productData?.requirementsFor && <h3>Student’s Eligibility and Application requirements : </h3>}
-                    <p style={{ fontWeight: 'bold' }}>{productData?.requirementsFor}</p>
+
 
 
                     {productData?.des1 ? <blockquote className="block-quote">
@@ -135,10 +134,10 @@ function Home() {
 
             </div>
 
-            <NextPage className={`background-section section-padding`} />
+            <NextPage className={` section-padding`} />
 
             {/*========== Footer ==========*/}
-            <Footer className="background-section" />
+            <Footer className="" />
             {/*========== End Footer ==========*/}
         </Layout>
     );

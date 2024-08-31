@@ -62,7 +62,7 @@
       display: block;
       stroke-dasharray: 310px;
       stroke-dashoffset: 310px;
-      stroke: url(#linearColors);
+      // stroke: url(#linearColors);
       animation: spin 1s infinite linear;
       transform-origin: center;
       width: 100%;
@@ -73,8 +73,8 @@
 
   .loading-circle {
     font-size: 7vw;
-    border-radius: 50%;
-    border: 1px solid #000;
+    border-radius: 2%;
+    border: 1px solid #8b6948;
 
 
   }

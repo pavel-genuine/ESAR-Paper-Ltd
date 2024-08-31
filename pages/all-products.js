@@ -12,13 +12,13 @@ function Work() {
 
 
     return (
-        <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
+        <Layout className='v-light' modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
             <Head>
                 <title>Portfolio  | Eremia Creative Portfolio Multi-Purpose</title>
             </Head>
 
             {/*========== Header Normal ========== */}
-            <HeaderNormal backgroundColor="background-section" className="text-center">
+            <HeaderNormal backgroundColor="" className="text-center">
                 <p className="subtitle p-relative line-shape  dsn-load-animate">
                     <span className="pl-10 pr-10 background-main">Finest Solutions</span>
                 </p>
@@ -39,10 +39,10 @@ function Work() {
             </section>
 
             {/*========== Start Next Page Section ==========*/}
-            <NextPage className={`background-section section-padding`} />
+            <NextPage className={` section-padding`} />
             {/*========== End Next Page Section ==========*/}
             {/*========== Footer ==========*/}
-            <Footer className="background-section" />
+            <Footer className="" />
             {/*========== End Footer ==========*/}
         </Layout>
     );
