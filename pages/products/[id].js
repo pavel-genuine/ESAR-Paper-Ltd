@@ -60,7 +60,7 @@ function Home() {
             {/*Start Parallax Img*/}
             <ParallaxImage alt={""} src={`${productData?.src}`} height={"80vh"}
                 parallaxFrom={{ scale: 1.3 }} parallax={{ scale: 1 }}
-                overlay={5} />
+                overlay={2} />
             {/*End Parallax Img*/}
 
             <div className="news-content  pt-40 pb-40 v-light">
@@ -75,6 +75,14 @@ function Home() {
                         </p>
 
                     </blockquote> : ""}
+
+                    {productData?.breakdown?.length ? <blockquote className="block-quote">
+                        <p>
+                            {/* <p style={{ fontWeight: 'bold' }}>Academic Documents : </p> */}
+                            {productData?.breakdown?.map((doc, i) => <p key={i} style={{ marginTop: '8px' }}><span>{doc}</span></p>)}
+                        </p>
+
+                    </blockquote> : ''}
 
                     {productData?.des2 ?
                         <blockquote className="block-quote">

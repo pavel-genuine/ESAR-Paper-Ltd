@@ -73,7 +73,7 @@ function PortfolioItem({
         </DsnLink>
       </div>
       <div className="info-text box-content" {...parallaxContent}>
-        {portoDetails.category && <MetaPost category={portoDetails.category} />}
+        {/* {portoDetails.category && <MetaPost category={portoDetails.category} />} */}
 
         {portoDetails.title && (
           <h4 className="title-block mt-15">

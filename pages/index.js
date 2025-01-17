@@ -45,9 +45,9 @@ const dataSlider = [
             rel: "nofollow"
         },
         buttonText: "ESAR Paper Industries Limited",
-        src: '/img/esar/Hang Tags (1).jpg',
+        src: '/img/esar/perfecf.jpg',
         subtitle: `We've a design team that believe in the ideas`,
-        overlay: 6
+        overlay: 4
     },
     {
         id: 1,
@@ -59,26 +59,12 @@ const dataSlider = [
         },
         buttonText: "ESAR Paper Industries Limited",
         subtitle: `Finest material sourcing all over the world`,
-        src: '/img/esar/box.avif',
+        src: '/img/esar/2. Extensive Product Range 1.jpeg',
         overlay: 6,
 
     },
 
 
-    {
-        id: 22,
-        title: `Craft Elegant <br /> Solutions`,
-        href: {
-            href: "#0",
-            target: "_blank",
-            rel: "nofollow"
-        },
-        buttonText: "ESAR Paper Industries Limited",
-        subtitle: `Final outputs will amaze you`,
-        src: '/img/esar/buttons.webp',
-        overlay: 6,
-
-    },
     {
         id: 3,
         title: `FSC™ Certified <br/> Materials`,
@@ -89,28 +75,15 @@ const dataSlider = [
             rel: "nofollow"
         },
         buttonText: "ESAR Paper Industries Limited",
-        src: '/img/esar/Woven and Printed Labels1.jpg',
-        subtitle: `we combine design, thinking and technical craft`,
+        src: '/img/esar/3. FSC Certified Materials.png',
+        subtitle: ``,
         overlay: 6,
 
-    },
-    {
-        id: 4,
-        title: `Elevates <br/> Visual Allure`,
-        href: {
-            href: "#0",
-            target: "_blank",
-            rel: "nofollow"
-        },
-        buttonText: "ESAR Paper Industries Limited",
-        src: '/img/esar/Belly Band & Photo Inlays.jpg',
-        subtitle: `Execution is the key to our success`,
-        overlay: 6
     },
 
     {
         id: 2,
-        title: `Craft Elegant <br /> Solutions`,
+        title: `GRS Certified <br/> Recycled Materials`,
         href: {
             href: "#0",
             target: "_blank",
@@ -118,8 +91,8 @@ const dataSlider = [
         },
         buttonText: "ESAR Paper Industries Limited",
         subtitle: `we believe in our expart teams & partners`,
-        src: '/img/esar/ecoband-custom.avif',
-        overlay: 6,
+        src: '/img/esar/4. GRS Certified Recycled Materials.jpg',
+        overlay: 4,
 
     },
 

@@ -25,34 +25,39 @@ function About() {
             <section >
                 {/*========== Header Normal ========== */}
                 <HeaderNormal className="text-center">
-                    <p className="title p-relative line-shape  mb-20">
+                    <p className="title p-relative line-shape">
                         <span style={{ color: '#8b6948' }} className="pl-10 pr-10 background-section">ESAR Paper Industries Ltd</span>
                     </p>
-                    <TitleSection className="title text-uppercase">
+                    {/* <TitleSection className="title text-uppercase">
                         Look around you<br /> everything is changing.
                     </TitleSection>
                     <p className="dsn-heading-title mt-15 max-w570">What if the time has come for you to
                         change?
                         Starting a collaboration is easy! Order a free consultation or call back. We are always in touch and
                         happy to cooperate with you
-                    </p>
+                    </p> */}
                 </HeaderNormal>
                 {/*========== End Header Normal ==========*/}
-                {/*Start Map*/}
-                {/* <Map
-                    mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
-                    zoom={10}
-                    height="80vh"
-                    defaultCenter={{ lat: 23.86408, lng: 90.3917306 }}
-                /> */}
+
+
 
                 {/*Start Contact Form && Info Box*/}
                 <div className="section-margin container">
                     <DsnGrid col={2} colTablet={1}>
-                        {/* <ContactForm /> */}
+
                         <InfoBox className="align-self-center" />
                     </DsnGrid>
                 </div>
+
+                {/*Start Map*/}
+                <Map
+                    mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg"
+                    zoom={10}
+                    height="80vh"
+                    defaultCenter={{ lat: 23.8639978, lng: 90.3909213 }}
+                />
+
+
 
             </section>
 

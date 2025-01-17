@@ -11,7 +11,7 @@ const menuContent = [
   },
 
   {
-    name: "Products",
+    name: "Products Solutions",
 
     dropdownMenu: [
       {
@@ -23,16 +23,16 @@ const menuContent = [
         href: "/products/hangtags?id=1",
       },
       {
+        name: "Woven and Printed Labels",
+        href: "/products/woven-and-printed-labels?id=4",
+      },
+      {
         name: "Heat Transfer Label",
         href: "/products/heat-transfer-label?id=2",
       },
       {
         name: "Care Labels",
         href: "/products/care-label?id=3",
-      },
-      {
-        name: "Woven and Printed Labels",
-        href: "/products/woven-and-printed-labels?id=4",
       },
 
       ,
@@ -47,6 +47,10 @@ const menuContent = [
       {
         name: "Belly Band & Photo Inlays",
         href: "/products/belly-band-&-photo-inlays?id=7",
+      },
+      {
+        name: "Poly Bags",
+        href: "/products/poly-bags?id=8",
       },
     ],
   },

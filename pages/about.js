@@ -87,7 +87,7 @@ function About() {
             {/*<!-- ========== box-gallery-vertical image left ========== */}
             <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Feature">
                 <div className="box-img" >
-                    <ParallaxImage alt="" src={"/img/esar/mission.webp"} height="100%" />
+                    <ParallaxImage alt="" src={"/img/esar/flat-lay-target-with-arrows-pointing-bullseye_23-2148490584.avif"} height="100%" />
                 </div>
                 <div className="box-info box-padding background-section" >
                     <TitleSection className={"mb-50"} defaultSpace={false} description="Our Mission">
@@ -98,7 +98,36 @@ function About() {
                         We aim to be a catalyst for positive change, inspiring businesses to adopt sustainable packaging practices</p>
 
 
-                    <div className="border-bottom mt-30 mb-30" />
+
+                    <div className="border-bottom mt-30" />
+
+                    <div className="box-info box-padding background-section order-md-2">
+                        <TitleSection className={"mb-50"} defaultSpace={false} description="Our Vision">
+                            Our Vision is to be the preferred partner for global brands.
+                        </TitleSection>
+
+                        <p className="max-w570 dsn-up">Our Vision is to be the preferred partner for global brand, setting the standard for sustainable and stylish packaging that adds value to their brand identity.</p>
+
+                        <div className="border-bottom mt-30 mb-30" />
+
+                        {/* <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
+                        View More <span className="icon">⟶</span>
+                    </Button> */}
+                    </div>
+
+
+
+                </div>
+            </DsnGrid>
+            {/*<!-- ========== End box-gallery-vertical image left ========== */}
+
+            {/*<!-- ========== box-gallery-vertical image right ========== */}
+            <DsnGrid className="p-relative over-hidden" col={2} colTablet={1} colGap={0} rowGap={0}>
+                <div className="box-info box-padding background-section order-md-2">
+                    <TitleSection className={"mb-50"} defaultSpace={false} description="Our Key Offerings">
+                        "Enhance your product lines with Custom, Sustainable, Eco-friendly, Innovative Solutions."
+                    </TitleSection>
+
                     <List className="pb-30 border-bottom" col={1} rowGap={30}>
                         <ListItem number="1" headingTag="span" headingTitle="sm-title-block">
                             <span style={{ fontWeight: 'bold' }}>
@@ -112,20 +141,6 @@ function About() {
                             <span style={{ fontWeight: 'bold' }}>Innovative Designs:</span>  Incorporating the latest design trends and technologies to create packaging that stands out on the shelves and resonates with consumers.
                         </ListItem>
                     </List>
-
-                </div>
-            </DsnGrid>
-            {/*<!-- ========== End box-gallery-vertical image left ========== */}
-
-            {/*<!-- ========== box-gallery-vertical image right ========== */}
-            <DsnGrid className="p-relative over-hidden" col={2} colTablet={1} colGap={0} rowGap={0}>
-                <div className="box-info box-padding background-section order-md-2">
-                    <TitleSection className={"mb-50"} defaultSpace={false} description="Our Vision">
-                        Our Vision is to be the preferred partner for global brand...
-                    </TitleSection>
-
-                    <p className="max-w570 dsn-up">Our Vision is to be the preferred partner for global brand, setting the standard for sustainable and stylish packaging that adds value to their brand identity.</p>
-
                     <div className="border-bottom mt-30 mb-30" />
 
                     {/* <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
@@ -133,7 +148,7 @@ function About() {
                     </Button> */}
                 </div>
                 <div className="box-img order-md-1">
-                    <ParallaxImage alt="" src={"/img/esar/vision.jpg"} height="100%" />
+                    <ParallaxImage alt="" src={"/img/esar/hands-holding-puzzle-business-problem-solving-concept_53876-129016.avif"} height="100%" />
                 </div>
 
             </DsnGrid>
@@ -142,7 +157,7 @@ function About() {
 
             <DsnGrid className="p-relative over-hidden v-light " col={2} colTablet={1} colGap={0} rowGap={0} data-dsn-title="Feature">
                 <div className="box-img" >
-                    <ParallaxImage alt="" src={"/img/esar/Quality Assurance.jpg"} height="100%" />
+                    <ParallaxImage alt="" src={"/img/esar/quality.jpg"} height="100%" />
                 </div>
                 <div className="box-info box-padding background-section" >
                     <TitleSection className={"mb-50"} defaultSpace={false} description="Quality Assurance">
@@ -176,7 +191,7 @@ function About() {
                     </Button> */}
                 </div>
                 <div className="box-img order-md-1">
-                    <ParallaxImage alt="" src={"/img/esar/Environmental Responsibility.jpg"} height="100%" />
+                    <ParallaxImage alt="" src={"/img/esar/top-view-people-caring-mother-nature_23-2151262704.jpg"} height="100%" />
                 </div>
 
             </DsnGrid>

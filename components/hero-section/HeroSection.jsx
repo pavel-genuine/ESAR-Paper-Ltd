@@ -16,7 +16,7 @@ const HeroContent = {
   authorJob: "",
   experienceNumber: "15",
   experienceDescription: `YEARS OF \n EXPERIENCE`,
-  heroImage: "/img/about/about.webp",
+  heroImage: "/img/about/Screenshot 2025-01-16 193451.png",
   textButton: `View More <span>⟶</span>`,
   link: {
     href: "/about",

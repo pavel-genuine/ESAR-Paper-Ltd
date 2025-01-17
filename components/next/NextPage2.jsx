@@ -32,7 +32,7 @@ function NextPage2({ className, ...restProps }) {
 
           <div className="button-box d-flex justify-content-end align-items-center">
             <Button
-              href={"/work-card-3-col"}
+              href={"/all-products"}
               className="mr-15 line-head"
               borderStyle={"border-color-heading-color"}
               borderRadius

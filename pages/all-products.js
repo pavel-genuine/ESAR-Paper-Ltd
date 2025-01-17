@@ -23,7 +23,7 @@ function Work() {
                     <span className="pl-10 pr-10 background-main">Finest Solutions</span>
                 </p>
                 <h1 className="title text-uppercase">
-                    OUR PRODUCTS
+                    OUR PRODUCTS SOLUTIONS
                 </h1>
             </HeaderNormal>
             {/*========== End Header Normal ==========*/}

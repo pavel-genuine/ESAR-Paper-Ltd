@@ -20,14 +20,33 @@ function MenuContent({ className }) {
     >
       <div className="nav__info">
         <div className="nav-content">
-          <h5 className="sm-title-block mb-10">Office</h5>
-          <p>Gazipur, Bangladesh</p>
+          <li>
+            <h5 style={{ fontSize: 18 }} className="sm-title-block mb-10">
+              Address
+            </h5>
+            <p style={{ fontSize: 18 }} className="text-">
+              <span style={{ fontWeight: "bold" }}>Office : </span> House: 11,
+              Road: 1/B, Sector: 05, Uttara, Dhaka-1230, Bangladesh.
+            </p>
+            <br />
+            <p
+              style={{ fontSize: 18, wordWrap: "break-word" }}
+              className="text-p"
+            >
+              <span style={{ fontWeight: "bold" }}>Factory :</span> Village :
+              Haidarabad, Ward:39, P.O. : Haidarabad Madrasa, P.S. : Pubail,
+              Gazipur City Corporation, Gazipur-1710,{" "}
+            </p>
+          </li>
         </div>
         <div className="nav-content mt-30">
-          <h5 className="sm-title-block mb-10">Contact</h5>
+          <h5 style={{ fontSize: 18 }} className="sm-title-block mb-10">
+            Contact
+          </h5>
 
           <p className="links over-hidden">
             <a
+              style={{ fontSize: 18 }}
               className="link-hover"
               href="mailto:info@esar.com"
               data-hover-text="info@esar.com"
