@@ -52,6 +52,10 @@ const menuContent = [
         name: "Poly Bags",
         href: "/products/poly-bags?id=8",
       },
+      {
+        name: "Corrugated Packaging",
+        href: "/products/corrugated-packaging?id=9",
+      },
     ],
   },
 

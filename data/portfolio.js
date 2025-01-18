@@ -146,7 +146,27 @@ export const data = [
         des3: ` We provide a wide range of products, including PE, LDPE, PP, Water-Touch Poly Bags, as well as Recyclable and Biodegradable options.`,
         overlay: 0
 
-    }
+    },
+
+    {
+        id: 9,
+        img1: '/img/esar/BELLY BAND & PHOTO IN LAY/IMG_9911.JPG',
+        img2: '/img/esar/Belly Band & Photo Inlays2.jpg',
+        img3: '/img/esar/band1.jpg',
+        title: "Corrugated Packaging",
+        slug: 'corrugated-packaging',
+        src: '/img/esar/BELLY BAND & PHOTO IN LAY/IMG_9906.JPG',
+
+        category: ['Corrugated Packaging'],
+        des1: `ESAR provides a comprehensive range of corrugated packaging solutions to address the varied needs of our clients. With a strong focus on quality, 
+        innovation, and sustainability, we have positioned ourselves as a reliable partner in the corrugated packaging sector.
+         `,
+        des2: `  No matter the product, ESAR specializes in designing and producing corrugated packaging that ensures protection while aligning with brand goals. We ensure our engineering and production services adhere to important industry testing protocols. Exceptional full color graphics are printed and laminated to corrugated paperboard, delivering the distinctive brand message and the protection required to minimize damage rates and maximize sales.
+        `,
+        des3: `   At ESAR, we are dedicated to sustainability and environmental responsibility. We utilize FSC™-certified materials option as per customer demand. Our eco-friendly approach helps minimize waste and reduce the carbon footprint of our production and distribution processes.`,
+
+        overlay: 0
+    },
 
 ]
 

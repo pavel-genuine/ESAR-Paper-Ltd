@@ -3,7 +3,7 @@
   position: relative;
   .scrollbar-track {
     background: none;
-    width: 4px;
+    width: 8px;
     mix-blend-mode: exclusion;
 
     .scrollbar-thumb {
@@ -17,8 +17,8 @@
 
 .main-content.dsn-main-scrollbar .scrollbar-track {
   @include body-line {
-    left: calc(#{$body-style-space} + (#{$smooth-width} /2) * -1) ;
-    right: auto;
+    // left: calc(#{$body-style-space} + (#{$smooth-width} /2) * -1) ;
+    // right: auto;
   }
 }
 

@@ -94,7 +94,7 @@ function Layout({
         )}
       </div>
 
-      <div className="line-border-style w-100 h-100" />
+      <div className=" w-100 h-100" />
       {/* <SocialOne /> */}
       <div className="dsn-paginate-right-page" ref={paginateRight} />
       {/* {modelRight && (
