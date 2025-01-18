@@ -85,7 +85,7 @@ function LoadingPage({ className, glitchLogo = true }: LoadingProps) {
   return (
     <div
       id="dsn_preloader"
-      className={dsnCN("preloader", className)}
+      className={dsnCN("preloader v-light", className)}
       ref={preloader}
     >
       {glitchLogo && (
