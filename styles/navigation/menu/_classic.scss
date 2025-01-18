@@ -8,13 +8,13 @@ ul.primary-nav {
 
   li {
     font-family: var(--body-font);
-    font-weight: bold;
+    font-weight:500;
 
   }
 
 
   > li {
-    font-size: 14px;
+    font-size: 18px;
     padding-bottom: 10px;
     padding-top: 10px;
 
@@ -35,7 +35,7 @@ ul.primary-nav {
 
 
     &:not(:first-of-type) {
-      margin-left: 30px;
+      margin-left: 60px;
     }
 
     &:last-of-type ul {

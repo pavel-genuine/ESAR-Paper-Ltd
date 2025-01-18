@@ -79,7 +79,7 @@ const EremiaMenu = ({ hamburger }) => {
 
   return (
     <section className="v-light">
-      <Navbar hamburger={hamburger}>
+      <Navbar style={{ backgroundColor: "red" }} hamburger={hamburger}>
         <Navbar.Brand
           href={"/"}
           transitionPage={{ title: "ESAR Paper Industries Ltd" }}
