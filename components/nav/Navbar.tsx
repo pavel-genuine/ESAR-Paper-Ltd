@@ -58,7 +58,7 @@ function Navbar({ children, textOpen, textMenu, textClose, hamburger }) {
       id="site_menu_header"
       className={dsnCN("site-header dsn-container ", typeNave)}
       ref={nav}
-      style={{ opacity: 0, backgroundColor: "#00000048" }}
+      style={{ opacity: 0 }}
     >
       {children}
 
