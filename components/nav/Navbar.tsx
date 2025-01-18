@@ -55,7 +55,6 @@ function Navbar({ children, textOpen, textMenu, textClose, hamburger }) {
 
   return (
     <header
-  
       id="site_menu_header"
       className={dsnCN("site-header dsn-container ", typeNave)}
       ref={nav}
@@ -134,6 +133,7 @@ export const Nav = ({ children, className, ...restProps }) => {
   return (
     <ul
       id="dsn-primary-list"
+      style={{ color: "#ffdd6d" }}
       className={dsnCN("primary-nav h2", className)}
       {...restProps}
     >
