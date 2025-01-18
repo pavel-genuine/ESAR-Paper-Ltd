@@ -94,7 +94,7 @@ function HeroSection({ className, ...restProps }) {
                 src={HeroContent.heroImage}
                 alt={"about"}
                 height="100%"
-                overlay={4}
+                overlay={1}
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
               />
             </div>
