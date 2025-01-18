@@ -58,7 +58,7 @@ function HeroSection({ className, ...restProps }) {
                 <p
                   className="mb-30"
                   ref={ref}
-                  style={{ maxWidth: 570, fontSize: "18px" }}
+                  style={{ maxWidth: 570, fontSize: 18 }}
                   dangerouslySetInnerHTML={{ __html: HeroContent.description }}
                 />
                 <h5

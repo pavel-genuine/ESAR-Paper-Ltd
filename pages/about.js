@@ -34,7 +34,7 @@ function About() {
 
 
     return (
-        <Layout className='v-light' modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
+        <Layout style={{ fontSize: 18 }} className='v-light' modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
             <Head>
                 <title>About Us | ESAR Paper Industries Ltd</title>
             </Head>
@@ -90,7 +90,7 @@ function About() {
                     <ParallaxImage alt="" src={"/img/esar/flat-lay-target-with-arrows-pointing-bullseye_23-2148490584.avif"} height="100%" />
                 </div>
                 <div className="box-info box-padding background-section" >
-                    <TitleSection className={"mb-50"} defaultSpace={false} description="Our Mission">
+                    <TitleSection className={"mb-30"} defaultSpace={false} description="Our Mission">
                         Our Mission is to revolutionize the packaging industry...
                     </TitleSection>
                     <p className="max-w570 dsn-up mb-10 ">Our Mission is to revolutionize the packaging industry by delivering cutting-edge, eco-friendly solutions that enhance brand value and reduce environmental impact.
@@ -108,7 +108,7 @@ function About() {
 
                         <p className="max-w570 dsn-up">Our Vision is to be the preferred partner for global brand, setting the standard for sustainable and stylish packaging that adds value to their brand identity.</p>
 
-                        <div className="border-bottom mt-30 mb-30" />
+                        <div className="border-bottom mt-30 " />
 
                         {/* <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
                         View More <span className="icon">⟶</span>
@@ -124,7 +124,7 @@ function About() {
             {/*<!-- ========== box-gallery-vertical image right ========== */}
             <DsnGrid className="p-relative over-hidden" col={2} colTablet={1} colGap={0} rowGap={0}>
                 <div className="box-info box-padding background-section order-md-2">
-                    <TitleSection className={"mb-50"} defaultSpace={false} description="Our Key Offerings">
+                    <TitleSection className={"mb-30"} defaultSpace={false} description="Our Key Offerings">
                         "Enhance your product lines with Custom, Sustainable, Eco-friendly, Innovative Solutions."
                     </TitleSection>
 
@@ -141,7 +141,7 @@ function About() {
                             <span style={{ fontWeight: 'bold' }}>Innovative Designs:</span>  Incorporating the latest design trends and technologies to create packaging that stands out on the shelves and resonates with consumers.
                         </ListItem>
                     </List>
-                    <div className="border-bottom mt-30 mb-30" />
+                    <div className=" mt-30 mb-30" />
 
                     {/* <Button href={"/services"} className="background-theme mt-30" borderStyle={false} borderRadius>
                         View More <span className="icon">⟶</span>

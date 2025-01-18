@@ -8,11 +8,7 @@ function Copyright({ className, ...restProps }) {
       <br />
       <br />
       Developed by{" "}
-      <a
-        target="_blank"
-        rel="nofollow"
-        href="https://www.facebook.com/mygensoft/"
-      >
+      <a target="_blank" rel="nofollow" href="https://www.gen-soft.dev">
         GenSoft.
       </a>
     </h5>

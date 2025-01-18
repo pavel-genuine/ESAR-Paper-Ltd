@@ -48,10 +48,10 @@ function MenuContent({ className }) {
             <a
               style={{ fontSize: 18 }}
               className="link-hover"
-              href="mailto:info@esar.com"
-              data-hover-text="info@esar.com"
+              href="mailto:info@esar.industries"
+              data-hover-text="info@esar.industries"
             >
-              info@esar.com
+              info@esar.industries
             </a>
           </p>
         </div>

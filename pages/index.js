@@ -109,7 +109,7 @@ function Corporate() {
     const heroData = getPortfolioItem('paper-based-packaging-box');
 
     return (
-        <Layout modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
+        <Layout className='v-light' modelRight={{ children: <ModalContact />, propsModal: { textBtn: "Contact" } }}>
 
             <Head>
                 <title>ESAR Paper Industries Ltd </title>

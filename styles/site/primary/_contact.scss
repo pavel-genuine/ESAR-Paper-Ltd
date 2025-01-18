@@ -61,6 +61,7 @@ label {
 
 .box-info-contact {
   padding-left: 30px;
+  
 
   @include media_991 {
     margin-top: 20px;
@@ -68,18 +69,19 @@ label {
   }
 
   ul {
+    font-size: large;
     li {
       &:not(:first-of-type) {
         margin-top: 30px;
       }
 
       @include media_991 {
-        display: inline-block;
-        width: 32.8%;
+        // display: inline-block;
+        // width: 32.8%;
       }
 
       @include media_768 {
-        width: 49%;
+        // width: 49%;
         margin-top: 30px;
       }
 
