@@ -46,7 +46,7 @@ const dataSlider = [
         },
         buttonText: "ESAR Paper Industries Limited",
         src: '/img/esar/perfecf.jpg',
-        subtitle: `We've a design team that believe in the ideas`,
+        // subtitle: `We've a design team that believe in the ideas`,
         overlay: 4
     },
     {
@@ -58,7 +58,7 @@ const dataSlider = [
             rel: "nofollow"
         },
         buttonText: "ESAR Paper Industries Limited",
-        subtitle: `Finest material sourcing all over the world`,
+        // subtitle: `Finest material sourcing all over the world`,
         src: '/img/esar/2. Extensive Product Range 1.jpeg',
         overlay: 6,
 
@@ -90,7 +90,7 @@ const dataSlider = [
             rel: "nofollow"
         },
         buttonText: "ESAR Paper Industries Limited",
-        subtitle: `we believe in our expart teams & partners`,
+        // subtitle: `we believe in our expart teams & partners`,
         src: '/img/esar/4. GRS Certified Recycled Materials.jpg',
         overlay: 4,
 

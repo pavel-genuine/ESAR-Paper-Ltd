@@ -5,11 +5,11 @@ export const data = [
         id: 1,
         title: "Hang Tags",
         slug: 'hang-tags',
-        category: [''],
+        category: ['Hang Tags'],
         src: '/img/esar/hangtag/IMG_4731.jpg',
         img1: '/img/esar/hangtag/49921021-A3D6-4134-B527-CF827842AF4D.png',
         img2: '/img/esar/hangtag/IMG_9497.JPG',
-        img3: '/img/esar/hangtags222.jpg',
+        img3: '/img/esar/hangtag/IMG_9572.JPG',
         des1: `Whether your preference leans towards FSC™-certified materials or non-wood alternatives, strings, seals or ribbons for your hangtags, we always have the right options to match your brand’s needs and sustainable direction for trims.
         
         `,
@@ -23,7 +23,7 @@ export const data = [
         id: 4,
         img1: '/img/esar/WOVEN AND PRINTED LABEL/printed/IMG_9446.JPG',
         img2: '/img/esar/WOVEN AND PRINTED LABEL/woven/IMG_9413.JPG',
-        img3: '/img/esar/Woven and Printed Labels3.png',
+        img3: '/img/esar/WOVEN AND PRINTED LABEL/woven/IMG_9344.JPG',
         title: "Woven and Printed Labels",
         slug: 'woven-and-printed-labels',
 
@@ -44,7 +44,7 @@ export const data = [
         category: [''],
         src: '/img/esar/HEAT TRANSFER/IMG_9580.JPG',
         img1: '/img/esar/HEAT TRANSFER/IMG_9593.JPG',
-        img2: '/img/esar/Heat Transfer Label2.png',
+        img2: '/img/esar/HEAT TRANSFER/IMG_9578.JPG',
         img3: '/img/esar/Heat Transfer Label1.png ',
         des1: `Heat transfer labels, also known as tag-less labels, are a type of label applied to garments or fabrics using heat and pressure. These labels are often used in the fashion and apparel industry as a modern and comfortable alternative to traditional sewn-in labels.
         `,
@@ -57,8 +57,8 @@ export const data = [
     {
         id: 3,
         img3: '/img/esar/CARE LABEL/IMG_9482.JPG',
-        img2: '/img/esar/Care Labels.webp',
-        img1: '/img/esar/Care Labels.jpg',
+        img2: '/img/esar/CARE LABEL/IMG_9494.JPG',
+        img1: '/img/esar/CARE LABEL/IMG_9467.JPG',
         title: "Care Labels",
         slug: 'care-labels',
         category: ['Trims & Accessories'],
@@ -75,7 +75,7 @@ export const data = [
         id: 5,
         img1: '/img/esar/SELF ADHESIVE LABEL/IMG_9884.JPG',
         img2: '/img/esar/SELF ADHESIVE LABEL/201710141507918105476.jpg',
-        img3: '/img/esar/SELF ADHESIVE LABEL/WhatsApp Image 2025-01-17 at 23.00.19_c58cfc6c.jpg',
+        img3: '/img/esar/SELF ADHESIVE LABEL/IMG_9846.JPG',
         title: "Self Adhesive Labels",
         slug: 'self-adhesive-labels',
         category: ['Self Adhesive Labels'],
@@ -89,8 +89,8 @@ export const data = [
     {
         id: 6,
         img1: '/img/esar/PAPER BASED PACKAGING BOX/pos-4.jpeg.webp',
-        img2: '/img/esar/PAPER BASED PACKAGING BOX/IMG_9922.JPG',
-        img3: '/img/esar/PAPER BASED PACKAGING BOX/WhatsApp Image 2025-01-17 at 22.56.24_f2857a6d.jpg',
+        img2: '/img/esar/PAPER BASED PACKAGING BOX/IMG_9936.JPG',
+        img3: '/img/esar/PAPER BASED PACKAGING BOX/pdq-displays.webp',
         title: "Paper Based Packaging Box",
         slug: 'paper-based-packaging-box',
         category: ['Paper Based Packaging Box'],
@@ -107,7 +107,7 @@ export const data = [
         id: 7,
         img1: '/img/esar/BELLY BAND & PHOTO IN LAY/IMG_9911.JPG',
         img2: '/img/esar/Belly Band & Photo Inlays2.jpg',
-        img3: '/img/esar/band1.jpg',
+        img3: '/img/esar/BELLY BAND & PHOTO IN LAY/WhatsApp Image 2025-01-18 at 21.38.03_35e41842.jpg',
         title: "Belly Band & Photo Inlays",
         slug: 'belly-band-&-photo-inlays',
         src: '/img/esar/BELLY BAND & PHOTO IN LAY/IMG_9906.JPG',
@@ -150,12 +150,12 @@ export const data = [
 
     {
         id: 9,
-        img1: '/img/esar/BELLY BAND & PHOTO IN LAY/IMG_9911.JPG',
-        img2: '/img/esar/Belly Band & Photo Inlays2.jpg',
-        img3: '/img/esar/band1.jpg',
+        img1: '/img/esar/CARTON/IMG_9783.JPG',
+        img2: '/img/esar/CARTON/elastic-carton-dakri-carton.jpg',
+        img3: '/img/esar/CARTON/IMG_9803.JPG',
         title: "Corrugated Packaging",
         slug: 'corrugated-packaging',
-        src: '/img/esar/BELLY BAND & PHOTO IN LAY/IMG_9906.JPG',
+        src: '/img/esar/CARTON/why-choose-us.webp',
 
         category: ['Corrugated Packaging'],
         des1: `ESAR provides a comprehensive range of corrugated packaging solutions to address the varied needs of our clients. With a strong focus on quality, 

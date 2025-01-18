@@ -36,7 +36,7 @@ function HeroButton({
   return (
     <Link
       transitionPage={transitionPage}
-      href={"/"}
+      href={""}
       {...LinkProps}
       className={dsnCN("dsn-button", className, borderRadius && "border-rdu ")}
       {...restProps}
