@@ -86,11 +86,6 @@ const EremiaMenu = ({ hamburger }) => {
       <Navbar hamburger={hamburger}>
         <Navbar.Brand
           href={"/"}
-          style={{
-            padding: "5px",
-            backgroundColor: "#ffffff",
-            borderRadius: "5px",
-          }}
           transitionPage={{ title: "ESAR Paper Industries Ltd" }}
         >
           <Logo height="auto" />
