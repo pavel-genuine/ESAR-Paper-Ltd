@@ -17,7 +17,7 @@ const ArrowLeft = () => (
   </svg>
 );
 
-const Dropdown = ({ children, name, textBack = "Back", ...restProps }) => {
+const Dropdown = ({ children, name, textBack = "", ...restProps }) => {
   const refName = useRef();
   const refBack = useRef();
 
@@ -60,7 +60,7 @@ const Dropdown = ({ children, name, textBack = "Back", ...restProps }) => {
                 {name}
               </span>
               <span className="text-back" ref={refBack}>
-                {/* {textBack} */}
+                {textBack}
               </span>
             </span>
           </span>

@@ -134,7 +134,7 @@ export const Nav = ({ children, className, ...restProps }) => {
     <ul
       id="dsn-primary-list"
       style={{ color: "#f2c52a" }}
-      className={dsnCN("primary-nav h2", className)}
+      className={dsnCN("primary-nav h4", className)}
       {...restProps}
     >
       {children}{" "}
