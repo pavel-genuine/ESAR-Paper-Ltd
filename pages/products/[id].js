@@ -50,7 +50,7 @@ function Home() {
 
             {/*========== Header Normal ========== */}
             <HeaderNormal container={"container"}>
-                <MetaPost category={productData?.category} />
+                {/* <MetaPost category={productData?.category} /> */}
                 <h1 className="title text-uppercase">
                     {productData?.title}
                 </h1>
