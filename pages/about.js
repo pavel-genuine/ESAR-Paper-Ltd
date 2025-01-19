@@ -50,9 +50,9 @@ function About() {
             {/*========== End Header Normal ==========*/}
 
             <section style={{ marginTop: '-120px' }}>
-                <ParallaxImage alt={""} src={"/img/about/about.webp"}
+                <ParallaxImage alt={""} src={"/img/about/Collage_20250119_134318.jpg"}
                     parallaxFrom={{ scale: 1.3 }} parallax={{ scale: 1 }}
-                    overlay={5} />
+                    overlay={2} />
             </section>
 
             <div className="news-content mb-section mt-40">
