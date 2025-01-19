@@ -22,7 +22,7 @@ export const data = [
     {
         id: 4,
         img1: '/img/esar/WOVEN AND PRINTED LABEL/printed/IMG_9446.JPG',
-        img2: '/img/esar/WOVEN AND PRINTED LABEL/woven/IMG_9413.JPG',
+        img2: '/img/esar/WOVEN AND PRINTED LABEL/woven/Screenshot 2025-01-19 083501.png',
         img3: '/img/esar/WOVEN AND PRINTED LABEL/woven/IMG_9344.JPG',
         title: "Woven and Printed Labels",
         slug: 'woven-and-printed-labels',
@@ -56,13 +56,13 @@ export const data = [
     },
     {
         id: 3,
-        img3: '/img/esar/CARE LABEL/IMG_9482.JPG',
-        img2: '/img/esar/CARE LABEL/IMG_9494.JPG',
-        img1: '/img/esar/CARE LABEL/IMG_9467.JPG',
+        img3: '/img/esar/CARE LABEL/IMG_9482.png',
+        img2: '/img/esar/CARE LABEL/Screenshot 2025-01-19 084255.png',
+        img1: '/img/esar/CARE LABEL/Screenshot 2025-01-19 084343.png',
         title: "Care Labels",
         slug: 'care-labels',
         category: ['Trims & Accessories'],
-        src: '/img/esar/CARE LABEL/IMG_9481.JPG',
+        src: '/img/esar/CARE LABEL/Screenshot 2025-01-19 084334.png',
         des1: `Care Labels serve as a comprehensive source of information, showcasing details ranging from the garment's composition and care guidelines to brand identity, style specifics, and production information. Each care label is distinctive, making it the most crucial tag on the garment. Even after the product packaging and hangtags are removed, the care label remains, continuing to guide consumers on how to best care for and maintain their garment. It stands as an enduring identifier, ensuring that essential information remains accessible throughout the 
         lifespan of the product.`,
         des2: `   With a meticulous approach to material selection, testing, and production, we guarantee the highest quality for every care label deliver. Our materials are not just chosen; they are carefully scrutinized and tested to ensure compliance with the strictest environmental and safety standards, proudly earning our OEKO-TEX® certification.
@@ -75,7 +75,7 @@ export const data = [
         id: 5,
         img1: '/img/esar/SELF ADHESIVE LABEL/IMG_9884.JPG',
         img2: '/img/esar/SELF ADHESIVE LABEL/201710141507918105476.jpg',
-        img3: '/img/esar/SELF ADHESIVE LABEL/IMG_9846.JPG',
+        img3: '/img/esar/SELF ADHESIVE LABEL/Screenshot 2025-01-19 085003.png',
         title: "Self Adhesive Labels",
         slug: 'self-adhesive-labels',
         category: ['Self Adhesive Labels'],
@@ -83,13 +83,13 @@ export const data = [
         `,
         des2: `        Our self-adhesive peel-off labels are designed to endure both high and cold temperatures, ensuring resilience in various applications. Whether your products face the heat of summer or the chill of winter, our labels remain steadfast, offering the best labeling solution for a range of scenarios.
 `,
-        src: '/img/esar/SELF ADHESIVE LABEL/IMG_9836.JPG',
+        src: '/img/esar/SELF ADHESIVE LABEL/Screenshot 2025-01-19 084944.png',
         overlay: 0
     },
     {
         id: 6,
         img1: '/img/esar/PAPER BASED PACKAGING BOX/pos-4.jpeg.webp',
-        img2: '/img/esar/PAPER BASED PACKAGING BOX/IMG_9936.JPG',
+        img2: '/img/esar/PAPER BASED PACKAGING BOX/Screenshot 2025-01-19 085349.png',
         img3: '/img/esar/PAPER BASED PACKAGING BOX/pdq-displays.webp',
         title: "Paper Based Packaging Box",
         slug: 'paper-based-packaging-box',
@@ -99,13 +99,13 @@ export const data = [
         des2: `From concept to execution, we bring innovation and strategic design to the forefront, ensuring that our packaging solutions make a lasting impact in the competitive market landscape.
         `,
         des3: `Our paper-based packaging is crafted from responsibly sourced materials, and we are proud to contribute to a greener future.`,
-        src: '/img/esar/PAPER BASED PACKAGING BOX/IMG_9936.JPG',
+        src: '/img/esar/PAPER BASED PACKAGING BOX/Screenshot 2025-01-19 085349.png',
         overlay: 0
     },
 
     {
         id: 7,
-        img1: '/img/esar/BELLY BAND & PHOTO IN LAY/IMG_9911.JPG',
+        img1: '/img/esar/BELLY BAND & PHOTO IN LAY/Screenshot 2025-01-19 082417.png',
         img2: '/img/esar/Belly Band & Photo Inlays2.jpg',
         img3: '/img/esar/BELLY BAND & PHOTO IN LAY/WhatsApp Image 2025-01-18 at 21.38.03_35e41842.jpg',
         title: "Belly Band & Photo Inlays",
@@ -150,9 +150,9 @@ export const data = [
 
     {
         id: 9,
-        img1: '/img/esar/CARTON/IMG_9783.JPG',
+        img1: '/img/esar/CARTON/Screenshot 2025-01-19 085830.png',
         img2: '/img/esar/CARTON/elastic-carton-dakri-carton.jpg',
-        img3: '/img/esar/CARTON/IMG_9803.JPG',
+        img3: '/img/esar/CARTON/Screenshot 2025-01-19 085840.png',
         title: "Corrugated Packaging",
         slug: 'corrugated-packaging',
         src: '/img/esar/CARTON/why-choose-us.webp',
