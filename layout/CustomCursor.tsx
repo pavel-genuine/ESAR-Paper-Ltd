@@ -6,7 +6,7 @@ function CustomCursor({duration, durationChangeSize, size, scale, ease}) {
     const cursor = useRef<HTMLDivElement>(null);
 
 
-    useEffect(() => {
+    useEffect(() => { 
         if (window.innerWidth <= 991)
             return;
 

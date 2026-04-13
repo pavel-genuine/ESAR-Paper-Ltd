@@ -67,7 +67,8 @@ const dataSlider = [
 
     {
         id: 3,
-        title: `FSC™ Certified <br/> Materials`,
+        // title: `FSC™ Certified <br/> Materials`,
+        title: `High Quality <br/> Materials`,
 
         href: {
             href: "#0",

@@ -117,7 +117,7 @@ export const data = [
         `,
         des2: `        We can use different print and finishing techniques to make products look their best in store. We offer the adhesive strip at the end of the bellyband, so that after wrapping, it might be locked using that glue portion. 
 `,
-        des3: `        With FSC™-certified materials option, we contribute to a more sustainable and environmentally conscious approach to packaging, aligning with our dedication to both quality and ethical practices.
+        des3: `        With high quality materials option, we contribute to a more sustainable and environmentally conscious approach to packaging, aligning with our dedication to both quality and ethical practices.
 `,
         overlay: 0
     },
