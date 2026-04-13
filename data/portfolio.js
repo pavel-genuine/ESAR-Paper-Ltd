@@ -10,7 +10,7 @@ export const data = [
         img1: '/img/esar/hangtag/49921021-A3D6-4134-B527-CF827842AF4D.png',
         img2: '/img/esar/hangtag/IMG_9497.JPG',
         img3: '/img/esar/hangtag/IMG_9572.JPG',
-        des1: `Whether your preference leans towards FSC™-certified materials or non-wood alternatives, strings, seals or ribbons for your hangtags, we always have the right options to match your brand’s needs and sustainable direction for trims.
+        des1: `Whether your preference leans towards high quality materials or non-wood alternatives, strings, seals or ribbons for your hangtags, we always have the right options to match your brand’s needs and sustainable direction for trims.
         
         `,
         des2: `Whether you prefer variable data as a Sticker or directly printed on your Hangtags, our team is equipped with the expertise and commitment needed to tailor the perfect solution for your brand. We understand the importance of individuality and precision in variable data, and our dedicated team ensures that every detail aligns seamlessly with your vision.`
@@ -163,7 +163,7 @@ export const data = [
          `,
         des2: `  No matter the product, ESAR specializes in designing and producing corrugated packaging that ensures protection while aligning with brand goals. We ensure our engineering and production services adhere to important industry testing protocols. Exceptional full color graphics are printed and laminated to corrugated paperboard, delivering the distinctive brand message and the protection required to minimize damage rates and maximize sales.
         `,
-        des3: `   At ESAR, we are dedicated to sustainability and environmental responsibility. We utilize FSC™-certified materials option as per customer demand. Our eco-friendly approach helps minimize waste and reduce the carbon footprint of our production and distribution processes.`,
+        des3: `   At ESAR, we are dedicated to sustainability and environmental responsibility. We utilize high quality materials option as per customer demand. Our eco-friendly approach helps minimize waste and reduce the carbon footprint of our production and distribution processes.`,
 
         overlay: 0
     },
